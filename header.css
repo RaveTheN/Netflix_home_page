@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.banner{
+    display: flex;
+    
+    font-family: "Arial";
+    font-size: 20px;
+    height: 4.5rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.banner-news{
+    display: flex;
+    height: 21px;
+    width: 55px;
+    color: white;
+    background-color: #e50914;
+    border-radius: 14px;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-offer > b {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.banner-more > a {
+    color: #2a77eb;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}

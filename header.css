@@ -95,7 +95,7 @@ body {
 }
 
 .text-language-login select {
-  background-color: inherit;
+  background-color: black;
   border: 1px solid rgb(170, 170, 170);
   border-radius: 2px;
   color: white;
@@ -115,4 +115,69 @@ body {
   margin-bottom: 0.7rem;
   display: flex;
   gap: 27px;
+}
+
+.front-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-10%);
+}
+
+.front-text > h1 {
+  font-size: 3rem;
+  width: 640px;
+  text-align: center;
+  align-self: center;
+  margin: 0px;
+}
+
+.front-text > h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.front-text > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.front-text > form > span{
+  align-self: center;
+  margin-top: 10px;
+}
+
+.front-text > form > span > input {
+  width: 450px;
+  height: 60px;
+  font-size: 1rem;
+  border: 0px;
+  padding: 0px;
+  border-radius: 3%;
+}
+
+.front-text > form > span > button {
+  width: 140px;
+  height: 60px;
+  color: white;
+  background-color: red;
+  font-size: 1rem;
+  border: 0px;
+  padding: 0px;
+  border-radius: 3%;
+}
+
+.front-text > form > span > button > img {
+  height: 1rem;
+}
+
+.front-text > form > label {
+  font-size: 1.2rem;
 }

@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/icon.png" />
     <link rel="stylesheet" href="header.css" />
     <title>Netflix Italia - Guarda serie TV online, Guarda film online</title>
-  </head>
-  <body>
-      <div class="banner">
+</head>
+<body>
+    <div class="banner">
         <div class="banner-news">NOVITÀ!</div>
         <div class="banner-offer">Piani ora a partire da <span>5,49 €.<span></div>
         <div class="banner-more">
-          <a href="https://www.netflix.com/signup">Scopri di più</a>
-          <img src="./assets/arrow.png" alt="">
+        <a href="https://www.netflix.com/signup">Scopri di più</a>
+        <img src="./assets/arrow.png" alt="">
         </div>
-      </div>
-      <div class="background">
-        <img src="./assets/background.png" alt="background" />
-      </div>
-      <div class="black-opacity"></div>
-      <div class="text-language-login">
+    </div>
+    <div class="background">
+        <img
+        srcset="./assets/background-l.jpg 1800w,
+                ./assets/background-m.jpg 1500w,
+                ./assets/background-s.jpg 1000w"
+        src="./assets/background-s.jpg"
+        alt="background"/>
+    </div>
+    <div class="front-text">
+        <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
+        <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
+        <form>
+            <label for="starting">Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</label>
+            <span>
+                <input type="email" name="starting" placeholder="Indirizzo email">
+                <button id="starting-button">Inizia <img src="./assets/arrow-button.png"></button>
+            </span>
+        </form>
+    </div>
+    <div class="black-opacity"></div>
+    <div class="text-language-login">
         <img src="./assets/netflix-word.svg" alt="">
         <div>
-          <select>
+        <select>
             <option>Italiano</option>
             <option>English</option>
-          </select>
-          <button>Accedi</button>
+        </select>
+        <button>Accedi</button>
         </div>
-      </div>
-  </body>
+    </div>
+</body>
 </html>

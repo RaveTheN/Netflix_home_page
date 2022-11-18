@@ -27,13 +27,70 @@ body {
 }
 
 .login {
+  display: flex;
+  flex-direction: column;
   width: 450px;
   height: 660px;
   background-color: rgba(0, 0, 0, 0.8);
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -35%);
+  gap: 1rem;
+}
+
+.login > h2 {
+  font-size: 2rem;
+  margin: 30px 0px 0px 70px;
+}
+
+.login > input[Type="text"], .login > input[Type="password"] {
+  align-self: center;
+  background-color: #333333;
+  color: white;
+  height: 50px;
+  width: 313px;
+  border-radius: 5px;
+  padding: 0px;
+  border: 0px;
+}
+
+.login > input::placeholder {
+  color:#757f86;
+  padding-left: 10px;
+}
+
+.login > button {
+  align-self: center;
+  color: white;
+  background-color: red;
+  height: 50px;
+  width: 313px;
+  border-radius: 5px;
+}
+
+.remember {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px;
+  color: #757f86;
+  font-size: 14px;
+}
+
+.remember > div {
+  display: flex;
+  align-items: center;
+}
+
+.remember > div > input{
+  height: 20px;
+  width: 20px;
+}
+
+.remember > div > input:active {
+  background-color: #757f86;
 }
 
 .footer {

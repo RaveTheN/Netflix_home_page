@@ -42,7 +42,7 @@ body {
 
 .login > h2 {
   font-size: 2rem;
-  margin: 30px 0px 0px 70px;
+  margin: 50px 0px 15px 70px;
 }
 
 .login > input[Type="text"], .login > input[Type="password"] {
@@ -59,15 +59,19 @@ body {
 .login > input::placeholder {
   color:#757f86;
   padding-left: 10px;
+  font-size: 16px;
 }
 
 .login > button {
   align-self: center;
   color: white;
-  background-color: red;
+  background-color: #e50914;
   height: 50px;
   width: 313px;
   border-radius: 5px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .remember {
@@ -75,8 +79,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 70px;
-  color: #757f86;
-  font-size: 14px;
+  color: #7b92a2;
+  font-size: 13px;
 }
 
 .remember > div {
@@ -84,13 +88,52 @@ body {
   align-items: center;
 }
 
+.remember > a {
+  color: #7b92a2;
+  text-decoration: none;
+}
+
 .remember > div > input{
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
+  margin-bottom: 6px;
 }
 
 .remember > div > input:active {
-  background-color: #757f86;
+  background-color: #7b92a2;
+}
+
+.login-bottom {
+  margin: 20px 70px 0px 70px;
+  color:#5c5857;
+}
+
+.login-bottom > p:first-child {
+  margin-bottom: 0px;
+}
+
+.login-bottom > p:first-child > a {
+  color:white;
+  text-decoration: none;
+}
+
+.login-bottom > p:first-child > a:hover{
+  text-decoration:underline;
+}
+
+.login-bottom> p:last-child{
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.login-bottom> p:last-child > a {
+  color: blue;
+  text-decoration:none;
+}
+
+.login-bottom > p:last-child > a:hover{
+  text-decoration:underline;
 }
 
 .footer {

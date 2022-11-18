@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  font-family: 'Martel sans';
+  margin: 0;
+  height: 172vh;
+}
+
+.background {
+  overflow: hidden;
+}
+
+.opacity {
+  position: absolute;
+  top: 0;
+  height: 172vh;
+  width: 98.72vw;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.netflix-text > img {
+  height: 100px;
+  width: 240px;
+  margin-left: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.login {
+  width: 450px;
+  height: 660px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+
+.footer {
+  height: 242px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  bottom: 242px;
+}

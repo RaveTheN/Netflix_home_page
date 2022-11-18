@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3145729ec0.js" crossorigin="anonymous"></script>
     <title>Netflix Italia - Guarda serie TV online, Guarda film online</title>
   </head>
 <body>
@@ -22,23 +23,21 @@
       </div>
     </div>
     <div class="background">
-      <img
-        srcset="./assets/background-l.jpg 1800w,
-                ./assets/background-m.jpg 1500w,
-                ./assets/background-s.jpg 1000w"
-        src="./assets/background-l.jpg"
-        alt=""
-      />
+      <img src="./assets/background-s-cut.jpg" alt=""/>
     </div>
-    <div class="black-opacity"></div>
+    <div class="opacity">
+      <div class="black-to-white"></div>
+      <div class="white-to-black"></div>
+    </div>
     <div class="text-language-login">
         <img src="./assets/netflix-word.svg" alt="">
         <div>
-        <select>
-            <option>Italiano</option>
-            <option>English</option>
-        </select>
-        <button>Accedi</button>
+          <img class="select-icon" src="./assets/globe.png" alt="">
+          <select>
+              <option>Italiano</option>
+              <option></i>English</option>
+          </select>
+          <a href="./login.html">Accedi</a>
         </div>
     </div>
     <div class="front-text">
@@ -53,5 +52,6 @@
         </form>
     </div>
   </div>
+  <div class="section1"></div>
 </body>
 </html>

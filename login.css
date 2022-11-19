@@ -45,7 +45,8 @@ body {
   margin: 50px 0px 15px 70px;
 }
 
-.login > input[Type="text"], .login > input[Type="password"] {
+.login > input[Type='text'],
+.login > input[Type='password'] {
   align-self: center;
   background-color: #333333;
   color: white;
@@ -57,7 +58,7 @@ body {
 }
 
 .login > input::placeholder {
-  color:#757f86;
+  color: #757f86;
   padding-left: 10px;
   font-size: 16px;
 }
@@ -75,7 +76,7 @@ body {
 }
 
 .remember {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 70px;
@@ -93,19 +94,16 @@ body {
   text-decoration: none;
 }
 
-.remember > div > input{
+.remember > div > input {
+  accent-color: white;
   height: 15px;
   width: 15px;
   margin-bottom: 6px;
 }
 
-.remember > div > input:active {
-  background-color: #7b92a2;
-}
-
 .login-bottom {
   margin: 20px 70px 0px 70px;
-  color:#5c5857;
+  color: #737373;
 }
 
 .login-bottom > p:first-child {
@@ -113,33 +111,84 @@ body {
 }
 
 .login-bottom > p:first-child > a {
-  color:white;
+  color: white;
   text-decoration: none;
 }
 
-.login-bottom > p:first-child > a:hover{
-  text-decoration:underline;
+.login-bottom > p:first-child > a:hover {
+  text-decoration: underline;
 }
 
-.login-bottom> p:last-child{
+.login-bottom > p:last-child {
   font-size: 12px;
   line-height: 1.5;
   margin-top: 4px;
 }
 
-.login-bottom> p:last-child > a {
-  color: blue;
-  text-decoration:none;
+.login-bottom > p:last-child > a {
+  color: #0071eb;
+  text-decoration: none;
 }
 
-.login-bottom > p:last-child > a:hover{
-  text-decoration:underline;
+.login-bottom > p:last-child > a:hover {
+  text-decoration: underline;
 }
 
 .footer {
-  height: 242px;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.8);
+  height: 265px;
+  width: 98.72vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95));
   position: relative;
   bottom: 242px;
+  color: #737373;
+}
+
+.footer-content {
+  width: 70vw;
+  height: 100%;
+  position: relative;
+  left: 10%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  font-size: 13px;
+  list-style: none;
+}
+
+.footer .domande {
+  padding: 27px 0 20px 38px;
+}
+
+.footer select {
+  background-color: black;
+  border: 1px solid #737373;
+  border-radius: 2px;
+  color: #737373;
+  padding: 12px 6px 12px 35px;
+  font-size: 17px;
+}
+
+.select-icon {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  left: 30px;
+}
+
+.selector {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 0 23px;
 }

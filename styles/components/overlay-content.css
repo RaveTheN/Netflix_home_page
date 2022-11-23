@@ -1,0 +1,56 @@
+.overlay-content {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+}
+
+.overlay-content>div>h1 {
+    width: 950px;
+    font-size: 4rem;
+    line-height: 1.1;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.overlay-content>div>h2 {
+    color: var(--text-primary);
+    font-size: 1.5;
+    text-align: center;
+}
+
+.overlay-content>div>p {
+    color: var(--text-primary);
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
+
+.overlay-content>div>form {
+    padding-top: 10px;
+}
+
+.overlay-content>div>form>input {
+    width: 450px;
+    height: 70px;
+    padding-left: 5px;
+    font-size: 16px;
+    border-radius: 2px 0 0 2px;
+    border: 1px solid var(--text-placeholder);
+}
+
+.overlay-content>div>form>button {
+    width: 150px;
+    height: 70px;
+    border: 0;
+    border-radius: 0 2px 2px 0;
+    background-color: var(--comp-primary);
+    color: var(--text-primary);
+    font-size: 2rem;
+}
+
+.overlay-content>div>form>button>img {
+    height: 20px;
+    position: relative;
+    top: 1px;
+}

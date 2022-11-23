@@ -1,57 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/icon.png" />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3145729ec0.js" crossorigin="anonymous"></script>
-    <title>Netflix Italia - Guarda serie TV online, Guarda film online</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/3145729ec0.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="./assets/netflix-icon.png" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <title>Netflix Italia - Guarda serie TV online, Guarda film online</title>
+</head>
+
 <body>
   <div class="header">
     <div class="banner">
-      <div class="banner-news">NOVITÀ!</div>
-      <div class="banner-offer">Piani ora a partire da <span>5,49 €.<span></div>
-      <div class="banner-more">
+      <div class="news">NOVITÀ!</div>
+      <div class="offer">Piani ora a partire da <span>5,49 €<span>.</div>
+      <div class="more">
         <a href="https://www.netflix.com/signup">Scopri di più</a>
-        <img src="./assets/arrow.png" alt="">
+        <img src="./assets/arrow-blue.png" alt="">
       </div>
     </div>
-    <div class="background">
-      <img src="./assets/background-s-cut.jpg" alt=""/>
-    </div>
-    <div class="opacity">
-      <div class="black-to-white"></div>
-      <div class="white-to-black"></div>
-    </div>
-    <div class="text-language-login">
-        <img src="./assets/netflix-word.svg" alt="">
-        <div>
-          <img class="select-icon" src="./assets/globe.png" alt="">
+    <div class="overlay">
+      <div class="overlay-header">
+        <img src="assets/netflix-word.svg" alt="">
+        <div class="flex-row">
+          <img src="assets/globe-white.png" alt="">
           <select>
-              <option>Italiano</option>
-              <option>English</option>
+            <option>Italiano</option>
+            <option>English</option>
           </select>
-          <a href="./login.html">Accedi</a>
+          <a href="#">Accedi</a>
         </div>
+      </div>
+      <div class="overlay-content flex-column">
+        <div>
+          <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
+          <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
+          <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</p>
+          <form class="flex-row">
+            <input type="email" placeholder="Indirizzo email">
+            <button class="flex-row">
+              <span>Inizia</span>
+              <img src="assets/arrow-white.png" alt="">
+            </button>
+          </form>
+        </div>
+      </div>
+      <img src="./assets/background-l.jpg" alt="" />
+      <div class="opacity border">
+        <div class="to-light"></div>
+        <div class="to-dark"></div>
+      </div>
     </div>
-    <div class="front-text">
-        <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
-        <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
-        <form>
-            <label for="starting">Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</label>
-            <span>
-                <input type="email" name="starting" placeholder="Indirizzo email">
-                <button id="starting-button">Inizia<img src="./assets/arrow-button.png"></button>
-            </span>
-        </form>
-    </div>
-  </div>
-  <div class="section1"></div>
+    <div class="section1"></div>
 </body>
+
 </html>
+
+<!--
+  <div class="overlay-content">
+        <div class="content-bottom">
+          <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
+          <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
+          <form>
+            <label for="starting">Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo
+              abbonamento.</label>
+            <span>
+              <input type="email" name="starting" placeholder="Indirizzo email">
+              <button id="starting-button">Inizia<img src="./assets/arrow-white.png"></button>
+            </span>
+          </form>
+        </div>
+      </div>
+-->

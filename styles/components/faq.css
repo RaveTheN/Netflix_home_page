@@ -6,11 +6,17 @@
 }
 
 .faq>div {
-    gap: 30px;
+    gap: 8px;
 }
 
-.faq img {
+.cross {
     height: 30px;
+}
+
+.rotate {
+    height: 30px;
+    transform: rotate(45deg);
+    transition: transform 0.3s;
 }
 
 .question {
@@ -24,10 +30,14 @@
 .answer {
     background-color: #303030;
     width: 100%;
-    padding: 20px 30px;
+    padding: 1.2em;
     max-height: 1200px;
     transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
 
+}
+
+.answer>p>a{
+    color: inherit;
 }
 
 .item {
@@ -37,5 +47,7 @@
 .invisible {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    transition: max-height 0.20s cubic-bezier(0.5, 0, 0.1, 1);
+    padding: 0 1.2em;
+    transition: padding 0.25s cubic-bezier(0.5, 0, 0.1, 1);
 }

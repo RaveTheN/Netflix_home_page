@@ -55,7 +55,8 @@ img {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1100px;
-    flex-flow: row-reverse;
+    /* era row-reverse */
+    flex-flow: row;
 }
 
 

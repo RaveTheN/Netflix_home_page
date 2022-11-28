@@ -4,6 +4,7 @@ body, html {
     color: #f3f3f3;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin: 0;
     
 }
 
@@ -55,7 +56,14 @@ img {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1100px;
+    
+    
+}
+
+.flipped {
+
     flex-flow: row-reverse;
+    
 }
 
 
@@ -71,6 +79,10 @@ img {
 .card-container .device-img {
     position: relative;
     z-index: 2;
+}
+
+.card-container .eleven-img {
+    position: relative;
 }
 
 .card-container .text{
@@ -99,6 +111,65 @@ img {
     font-weight: 400;
 }
 
+.eleven {
+    margin: -8% 0 -4% -15%;
+    min-height: 100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.download-div {
+
+    padding: 0.5em 0.75em;
+    align-items: center;
+    background: #000;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: 0.25em 0.65em;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 96px;
+}
+
+.download-div img {
+    height: 4.5em;
+    max-width: 100%;
+}
+
+.download-icon {
+
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    content: "";
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+
+}
+
+.text-0 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.text-1 {
+    color: #0071eb;
+    font-size: .9em;
+    font-weight: 400;
+}
 @media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
 
     .card-container .sub-container {

@@ -44,6 +44,19 @@ img {
     width: 100%;
 }
 
+.tvCard {
+    
+    height: 100%;
+    left: 50%;
+    max-height: 55%;
+    max-width: 100%;
+    position: absolute;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+
+}
+
 .video {
     height: 100%;
     width: 100%;

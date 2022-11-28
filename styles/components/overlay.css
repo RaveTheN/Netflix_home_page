@@ -23,7 +23,3 @@
 .opacity div:first-child {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
 }
-
-.opacity div:last-child {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
-}

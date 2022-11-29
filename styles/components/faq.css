@@ -1,12 +1,14 @@
 .faq {
     color: var(--text-primary);
-    width: 790px;
-    font-size: 1.5rem;
+    width: 100%;
+    font-size: 1rem;
     margin: 5rem auto;
 }
 
 .faq>div {
     gap: 8px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .cross {

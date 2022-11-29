@@ -42,11 +42,18 @@ body {
 
 .login > h2 {
   font-size: 2rem;
+<<<<<<< HEAD
   margin: 50px 0px 15px 70px;
 }
 
 .login > input[Type='text'],
 .login > input[Type='password'] {
+=======
+  margin: 30px 0px 0px 70px;
+}
+
+.login > input[Type="text"], .login > input[Type="password"] {
+>>>>>>> 7c1ea533a5b58517902bfd3d1afa692b4d79b5e3
   align-self: center;
   background-color: #333333;
   color: white;
@@ -58,14 +65,20 @@ body {
 }
 
 .login > input::placeholder {
+<<<<<<< HEAD
   color: #757f86;
   padding-left: 10px;
   font-size: 16px;
+=======
+  color:#757f86;
+  padding-left: 10px;
+>>>>>>> 7c1ea533a5b58517902bfd3d1afa692b4d79b5e3
 }
 
 .login > button {
   align-self: center;
   color: white;
+<<<<<<< HEAD
   background-color: #e50914;
   height: 50px;
   width: 313px;
@@ -82,6 +95,21 @@ body {
   margin: 0 70px;
   color: #7b92a2;
   font-size: 13px;
+=======
+  background-color: red;
+  height: 50px;
+  width: 313px;
+  border-radius: 5px;
+}
+
+.remember {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px;
+  color: #757f86;
+  font-size: 14px;
+>>>>>>> 7c1ea533a5b58517902bfd3d1afa692b4d79b5e3
 }
 
 .remember > div {
@@ -89,6 +117,7 @@ body {
   align-items: center;
 }
 
+<<<<<<< HEAD
 .remember > a {
   color: #7b92a2;
   text-decoration: none;
@@ -191,4 +220,21 @@ body {
   display: flex;
   align-items: center;
   margin: 30px 0 0 23px;
+=======
+.remember > div > input{
+  height: 20px;
+  width: 20px;
+}
+
+.remember > div > input:active {
+  background-color: #757f86;
+}
+
+.footer {
+  height: 242px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  bottom: 242px;
+>>>>>>> 7c1ea533a5b58517902bfd3d1afa692b4d79b5e3
 }

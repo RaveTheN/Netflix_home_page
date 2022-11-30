@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/3145729ec0.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
@@ -16,11 +18,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
             integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
             crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+        <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap"
+            rel="stylesheet">
 
         <link rel="icon" href="./assets/netflix-icon.png" />
         <link rel="stylesheet" href="css/index.css" />
@@ -28,8 +30,8 @@
     </head>
 
     <body>
-        <div class="header">
-            <div class="banner">
+        <div class="header _border-bottom">
+            <div class="banner _flex-row">
                 <div class="news">NOVITÀ!</div>
                 <div class="offer">Piani ora a partire da <span>5,49 €<span>.</div>
                 <div class="more">
@@ -38,9 +40,9 @@
                 </div>
             </div>
             <div class="overlay">
-                <div class="overlay-header">
+                <div class="overlay-header _flex-row">
                     <img src="assets/netflix-word.svg" alt="">
-                    <div class="flex-row">
+                    <div class="_flex-row">
                         <img src="assets/globe-white.png" alt="">
                         <select>
                             <option>Italiano</option>
@@ -49,16 +51,16 @@
                         <a href="#">Accedi</a>
                     </div>
                 </div>
-                <div class="overlay-content flex-column">
+                <div class="overlay-content _flex-column">
+                    <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
+                    <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
                     <div>
-                        <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
-                        <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
                         <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo
                             abbonamento.
                         </p>
-                        <form class="flex-row">
+                        <form class="_flex-row">
                             <input type="email" placeholder="Indirizzo email">
-                            <button class="flex-row">
+                            <button class="_flex-row">
                                 <span>Inizia</span>
                                 <img src="assets/arrow-white.png" alt="">
                             </button>
@@ -66,14 +68,13 @@
                     </div>
                 </div>
                 <img src="./assets/background-l.jpg" alt="" />
-                <div class="opacity border">
+                <div class="opacity _flex-column _border">
                     <div class="to-light"></div>
                     <div class="to-dark"></div>
                 </div>
             </div>
-            <div class="section1"></div>
         </div>
-        <div class="card-container">
+        <div class="card-container _border-bottom">
             <div class="sub-container">
                 <div class="text">
                     <h1 id class="card-title">Goditi Netflix sulla tua TV.</h1>
@@ -83,7 +84,7 @@
                 <div class="media-container">
                     <div class="img-and-animation-container">
                         <img src="assets/tv.png" class="Tvimage">
-                        <div class="video-container tvCard">
+                        <div class="video-container tv-card">
                             <video class="video" autoplay playsinline muted loop src="assets/videotv.mov">
                             </video>
                         </div>
@@ -91,14 +92,15 @@
                 </div>
             </div>
         </div>
-        <div class="card-container">
+        <div class="card-container _border-bottom">
             <div class="sub-container flipped">
                 <div class="text">
                     <h1 id class="card-title">
                         Guarda Netflix ovunque.
                     </h1>
                     <h2 id class="card-subtitle">
-                        "Cellulare, tablet, laptop e TV: scegli tu cosa usare per guardare in streaming film e serie TV
+                        "Cellulare, tablet, laptop e TV: scegli tu cosa usare per guardare in streaming film e serie
+                        TV
                         senza limiti e senza spendere di più."
                     </h2>
                 </div>
@@ -115,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-container">
+        <div class="card-container _border-bottom">
             <div class="sub-container">
                 <div class="text">
                     <h1 id class="card-title">
@@ -136,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-container flipped">
+        <div class="card-container flipped _border-bottom">
             <div class="sub-container flipped">
                 <div class="text">
                     <h1 id class="card-title">
@@ -194,9 +196,11 @@
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            Guarda Netflix su smartphone, tablet, Smart TV, laptop o dispositivi per lo streaming, il
+                            Guarda Netflix su smartphone, tablet, Smart TV, laptop o dispositivi per lo streaming,
+                            il
                             tutto
-                            per un importo mensile fisso. Piani da 5,49 € a 17,99 € al mese. Nessun costo aggiuntivo,
+                            per un importo mensile fisso. Piani da 5,49 € a 17,99 € al mese. Nessun costo
+                            aggiuntivo,
                             nessun
                             contratto.
                         </div>
@@ -213,9 +217,12 @@
                     <div id="flush-collapseThree" class="accordion-collapse collapse"
                         aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            Base con pubblicità è un ottimo modo per godersi film e serie TV a un prezzo inferiore. Puoi
-                            guardare in streaming i tuoi titoli preferiti su qualsiasi dispositivo e con interruzioni
-                            pubblicitarie limitate. Questo piano non consente i download e alcuni film e serie TV non
+                            Base con pubblicità è un ottimo modo per godersi film e serie TV a un prezzo inferiore.
+                            Puoi
+                            guardare in streaming i tuoi titoli preferiti su qualsiasi dispositivo e con
+                            interruzioni
+                            pubblicitarie limitate. Questo piano non consente i download e alcuni film e serie TV
+                            non
                             sono
                             disponibili a causa di limitazioni legate alle licenze. Sono previste anche alcune
                             restrizioni
@@ -234,16 +241,20 @@
                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            Guarda Netflix dove vuoi, quando vuoi. Accedi al tuo account per guardare subito Netflix dal
+                            Guarda Netflix dove vuoi, quando vuoi. Accedi al tuo account per guardare subito Netflix
+                            dal
                             tuo
                             computer su netflix.com oppure da qualsiasi dispositivo connesso a Internet che supporta
                             l'app
-                            Netflix, come smart TV, smartphone, tablet, lettori multimediali per streaming e console per
+                            Netflix, come smart TV, smartphone, tablet, lettori multimediali per streaming e console
+                            per
                             videogiochi.
                             <br><br>
-                            Con l'app per iOS, Android e Windows 10 puoi anche scaricare i tuoi programmi preferiti. Usa
+                            Con l'app per iOS, Android e Windows 10 puoi anche scaricare i tuoi programmi preferiti.
+                            Usa
                             la
-                            funzionalità di download per guardare i contenuti mentre sei in viaggio e senza connessione
+                            funzionalità di download per guardare i contenuti mentre sei in viaggio e senza
+                            connessione
                             a
                             Internet. Porta Netflix sempre con te.
                         </div>
@@ -260,7 +271,8 @@
                     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            Netflix è flessibile. Nessun contratto fastidioso e nessun impegno. Puoi facilmente disdire
+                            Netflix è flessibile. Nessun contratto fastidioso e nessun impegno. Puoi facilmente
+                            disdire
                             il
                             tuo contratto online con due clic. Nessuna penale: attiva o disdici il tuo account in
                             qualsiasi
@@ -296,10 +308,12 @@
                         aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                             L'area Netflix Bambini, già inclusa nell'abbonamento, offre ai genitori un maggiore
-                            controllo sui contenuti e ai più piccoli uno spazio dedicato dove guardare serie TV e film
+                            controllo sui contenuti e ai più piccoli uno spazio dedicato dove guardare serie TV e
+                            film
                             per tutta la famiglia.
                             <br><br>
-                            I profili Bambini hanno un filtro famiglia con PIN che ti permette di limitare l'accesso ai
+                            I profili Bambini hanno un filtro famiglia con PIN che ti permette di limitare l'accesso
+                            ai
                             contenuti in base alla fascia d'età e bloccare la visione di titoli specifici.
                         </div>
                     </div>
@@ -309,9 +323,9 @@
                 <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo
                     abbonamento.
                 </p>
-                <form class="flex-row">
+                <form class="_flex-row">
                     <input type="email" placeholder="Indirizzo email">
-                    <button class="flex-row">
+                    <button class="_flex-row">
                         <span>Inizia</span>
                         <img src="assets/arrow-white.png">
                     </button>

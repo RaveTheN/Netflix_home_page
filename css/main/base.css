@@ -1,46 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+/* Background Colors */
+/* Text Colors */
+/* Components Colors */
+/* Sizes */
 html {
+  background-color: black;
   font-size: 16px;
-  font-family: "Martel sans";
+}
+html > body {
+  background-color: var(--bg-primary);
 }
 
 * {
+  font-family: "Martel sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-color: var(--bg-primary);
-}
-
-.container {
+._container {
   padding: 70px 45px;
 }
 
-.flex-row {
+._flex-row {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
 }
 
-.flex-column {
+._flex-column {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-.border {
+._border-bottom {
   border-bottom: 8px solid #222;
-}
-
-.section1 {
-  width: 100%;
-  height: 200px;
-  position: absolute;
-  top: 1000px;
 }
 
 /*# sourceMappingURL=base.css.map */

@@ -1,34 +1,12 @@
-body,
-html {
-
-    background-color: black;
-    color: #f3f3f3;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: 0;
-
-}
-
-div {
-    display: block;
-}
-
 .card-container {
-
     background: transparent;
-    border-bottom: 8px solid #222;
     color: #fff;
     margin-bottom: 0;
     padding: 50px 5%;
     position: relative;
-
 }
 
-* {
-    letter-spacing: 0;
-}
-
-img {
+.card-container img {
     border: 0;
     height: auto;
     max-width: 100%;
@@ -45,8 +23,7 @@ img {
     width: 100%;
 }
 
-.tvCard {
-
+.tv-card {
     height: 100%;
     left: 50%;
     max-height: 55%;
@@ -55,7 +32,6 @@ img {
     top: 48%;
     transform: translate(-50%, -50%);
     width: 100%;
-
 }
 
 .video {
@@ -64,27 +40,20 @@ img {
 }
 
 .card-container .sub-container {
-
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1100px;
-
-
 }
 
 .flipped {
-
     flex-flow: row-reverse;
-
 }
-
 
 .card-container .sub-container .text {
     padding: 0 0 0 3rem;
 }
-
 
 .card-container .text {
     margin: -2% 0;
@@ -158,10 +127,8 @@ img {
 }
 
 .download-icon {
-
     background: url(../../assets/download-icon.gif) 50% no-repeat;
     background-size: 100%;
-    content: "";
     display: block;
     flex-grow: 0;
     flex-shrink: 0;
@@ -169,7 +136,6 @@ img {
     outline: 2px solid #000;
     outline-offset: -2px;
     width: 3em;
-
 }
 
 .text-0 {
@@ -187,7 +153,6 @@ img {
 only screen and (min-width: 350px) and (max-width: 399px),
 only screen and (min-width: 400px) and (max-width: 549px),
 only screen and (min-width: 550px) and (max-width: 949px) {
-
     .card-container .sub-container {
         flex-flow: column;
         flex-direction: column;
@@ -205,7 +170,6 @@ only screen and (min-width: 550px) and (max-width: 949px) {
     }
 
     .card-container .media-container {
-
         margin-top: 1em;
         max-width: 600px;
         width: 100%;

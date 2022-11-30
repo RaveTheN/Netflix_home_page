@@ -1,15 +1,9 @@
-@import url(main/root.css);
-@import url(main/base.css);
-
-@import url(components/banner.css);
-@import url(components/overlay.css);
-
-@import url(components/overlay-header.css);
-@import url(components/overlay-content.css);
-
-@import url(components/cards.css);
-@import url(components/faq.css);
-
-@import url(media/950px.css);
-@import url(media/740px.css);
-@import url(media/550px.css);
+// Main
+@use "main/base.scss";
+// Components
+@use "components/banner.scss";
+@use "components/overlay.scss";
+@use "components/overlay-header.scss";
+@use "components/overlay-content.scss";
+@use "components/cards.css";
+@use "components/faq.css";

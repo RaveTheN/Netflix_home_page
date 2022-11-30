@@ -1,21 +1,18 @@
-:root {
-    /* Background Colors */
-    --bg-primary: black;
-    --bg-secondary: #303030;
-    --bg-contrast: white;
-
-    /* Text Colors */
-    --text-primary: white;
-    --text-secondary: #737373;
-    --text-placeholder: #8c8c8c;
-
-    --text-banner-offer: #333;
-    --text-banner-more: #0071eb;
-
-    /* Components Colors */
-    --comp-primary: #e50914;
-
-    /* Sizes */
-    --banner-height: 66px;
-    --overlay-height: calc(100vh - var(--banner-height) + 14px);
-}
+/* Background Colors */
+$bg-primary: black;
+$bg-secondary: #303030;
+$bg-contrast: white;
+/* Text Colors */
+$text-primary: white;
+$text-secondary: #737373;
+$text-placeholder: #8c8c8c;
+$text-banner-offer: #333;
+$text-banner-more: #0071eb;
+/* Components Colors */
+$comp-primary: #e50914;
+$comp-secondary: #222;
+/* Sizes */
+$banner-height: 66px;
+$section-height: 465px;
+$overlay-height: calc(100vh - $banner-height); //+14px
+$border-height: 8px;

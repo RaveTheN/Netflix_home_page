@@ -5,7 +5,7 @@
     margin: 5rem auto;
 }
 
-.faq>div {
+.faq > div {
     gap: 8px;
     width: 90%;
     margin: 0 auto;
@@ -38,7 +38,7 @@
 
 }
 
-.answer>p>a{
+.answer > p > a {
     color: inherit;
 }
 

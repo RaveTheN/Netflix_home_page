@@ -1,11 +1,12 @@
-body, html {
+body,
+html {
 
     background-color: black;
     color: #f3f3f3;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
-    
+
 }
 
 div {
@@ -24,7 +25,7 @@ div {
 }
 
 * {
-    letter-spacing: 0!important;
+    letter-spacing: 0;
 }
 
 img {
@@ -40,19 +41,19 @@ img {
     max-width: 63%;
     position: absolute;
     top: 34%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100%;
 }
 
 .tvCard {
-    
+
     height: 100%;
     left: 50%;
     max-height: 55%;
     max-width: 100%;
     position: absolute;
     top: 48%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100%;
 
 }
@@ -69,14 +70,14 @@ img {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1100px;
-    
-    
+
+
 }
 
 .flipped {
 
     flex-flow: row-reverse;
-    
+
 }
 
 
@@ -85,7 +86,7 @@ img {
 }
 
 
-.card-container .text{
+.card-container .text {
     margin: -2% 0;
 }
 
@@ -98,7 +99,7 @@ img {
     position: relative;
 }
 
-.card-container .text{
+.card-container .text {
     flex: 0 1 auto;
     height: 100%;
     padding: 0 3rem 0 0;
@@ -133,11 +134,10 @@ img {
 }
 
 .download-div {
-
-    padding: 0.5em 0.75em;
+    padding: 0.25em 0.65em;
     align-items: center;
     background: #000;
-    border: 2px solid hsla(0,0%,100%,.25);
+    border: 2px solid hsla(0, 0%, 100%, .25);
     border-radius: 0.75em;
     bottom: 8%;
     box-shadow: 0 0 2em 0 #000;
@@ -146,7 +146,6 @@ img {
     left: 50%;
     margin: 0 auto;
     min-width: 15em;
-    padding: 0.25em 0.65em;
     position: absolute;
     transform: translateX(-50%);
     width: 60%;
@@ -160,7 +159,7 @@ img {
 
 .download-icon {
 
-    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+    background: url(../../assets/download-icon.gif) 50% no-repeat;
     background-size: 100%;
     content: "";
     display: block;
@@ -183,18 +182,22 @@ img {
     font-size: .9em;
     font-weight: 400;
 }
-@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+
+@media only screen and (max-width: 349px),
+only screen and (min-width: 350px) and (max-width: 399px),
+only screen and (min-width: 400px) and (max-width: 549px),
+only screen and (min-width: 550px) and (max-width: 949px) {
 
     .card-container .sub-container {
         flex-flow: column;
         flex-direction: column;
     }
 
-    .card-container .sub-container .text{
+    .card-container .sub-container .text {
         padding: 0;
     }
 
-    .card-container .text{
+    .card-container .text {
         margin: 0;
         padding: 0;
         text-align: center;
@@ -203,14 +206,12 @@ img {
 
     .card-container .media-container {
 
-    margin-top: 1em;
-    max-width: 600px;
-    width: 100%;
+        margin-top: 1em;
+        max-width: 600px;
+        width: 100%;
     }
 
     .card-container {
-        padding: 70px
-     45px;
+        padding: 70px 45px;
     }
 }
-

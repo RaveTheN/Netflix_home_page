@@ -5,14 +5,25 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
         <script src="https://kit.fontawesome.com/3145729ec0.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+            crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
         <link rel="icon" href="./assets/netflix-icon.png" />
-        <link rel="stylesheet" href="styles/index.css" />
-        <script defer src="faq.js"></script>
+        <link rel="stylesheet" href="css/index.css" />
         <title>Netflix Italia - Guarda serie TV online, Guarda film online</title>
     </head>
 
@@ -151,139 +162,160 @@
                 </div>
             </div>
         </div>
-        <div class="faq flex-column">
-            <div class="flex-column">
-                <div class="item flex-column">
-                    <span class="question flex-row">
-                        Cos'è Netflix?
-                        <img class="cross" src="assets/plus.png">
-                    </span>
-                    <div class="answer invisible">
-                        <p>Netflix è un servizio di streaming che offre una varietà di serie TV, film, documentari
-                            pluripremiati
-                            e
-                            tanto altro su
-                            una vasta gamma di dispositivi connessi a Internet.</p><br>
-                        <p>Guarda quello che vuoi, quando vuoi. Il tutto a una quota mensile ridotta. C'è sempre
-                            qualcosa di
-                            nuovo
-                            da
-                            scoprire:
-                            aggiungiamo nuovi film e serie TV ogni settimana!</p>
+        <div class="faq-container flex-column">
+            <h1>Domande frequenti</h1>
+            <div class="faq accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Cos'è Netflix?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Netflix è un servizio di streaming che offre una varietà di serie TV, film, documentari
+                            pluripremiati e tanto altro su una vasta gamma di dispositivi connessi a Internet.
+                            <br><br>
+                            Guarda quello che vuoi, quando vuoi. Il tutto a una quota mensile ridotta. C'è sempre
+                            qualcosa
+                            di nuovo da scoprire: aggiungiamo nuovi film e serie TV ogni settimana!
+                        </div>
                     </div>
                 </div>
-                <div class="item flex-column">
-                    <span class="question flex-row">
-                        Quanto costa Netflix?
-                        <img class="cross" src="assets/plus.png">
-                    </span>
-                    <div class="answer invisible">
-                        <p>Guarda Netflix su smartphone, tablet, Smart TV, laptop o dispositivi per lo streaming,
-                            il tutto per un importo mensile fisso. Piani da 5,49 € a 17,99 € al mese. Nessun costo
-                            aggiuntivo,
-                            nessun contratto..</p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Quanto costa Netflix?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Guarda Netflix su smartphone, tablet, Smart TV, laptop o dispositivi per lo streaming, il
+                            tutto
+                            per un importo mensile fisso. Piani da 5,49 € a 17,99 € al mese. Nessun costo aggiuntivo,
+                            nessun
+                            contratto.
+                        </div>
                     </div>
                 </div>
-                <div class="item flex-column">
-                    <span class="question flex-row">
-                        Cosa cambia se scegli il piano Base con le pubblicità?
-                        <img class="cross" src="assets/plus.png">
-                    </span>
-                    <div class="answer invisible">
-                        <p>
-                            Base con pubblicità è un ottimo modo per godersi film e serie TV a un prezzo inferiore.
-                            Puoi guardare in streaming i tuoi titoli preferiti su qualsiasi dispositivo e con
-                            interruzioni
-                            pubblicitarie limitate.
-                            Questo piano non consente i download e alcuni film e serie TV non sono disponibili a causa
-                            di
-                            limitazioni legate alle licenze.
-                            Sono previste anche alcune restrizioni relative alla posizione e al dispositivo. <a
-                                href="#">Scopri di più.</a>
-                        </p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Cosa cambia se scegli il piano base con pubblicità?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Base con pubblicità è un ottimo modo per godersi film e serie TV a un prezzo inferiore. Puoi
+                            guardare in streaming i tuoi titoli preferiti su qualsiasi dispositivo e con interruzioni
+                            pubblicitarie limitate. Questo piano non consente i download e alcuni film e serie TV non
+                            sono
+                            disponibili a causa di limitazioni legate alle licenze. Sono previste anche alcune
+                            restrizioni
+                            relative alla posizione e al dispositivo. <a href="#">Scopri di più.</a>
+                        </div>
                     </div>
                 </div>
-                <div class="item flex-column">
-                    <span class="question flex-row">
-                        Dove posso guardare Netflix?
-                        <img class="cross" src="assets/plus.png">
-                    </span>
-                    <div class="answer invisible">
-                        <p>
-                            Guarda Netflix dove vuoi, quando vuoi.
-                            Accedi al tuo account per guardare subito Netflix dal tuo computer su netflix.com oppure da
-                            qualsiasi dispositivo connesso
-                            a Internet che supporta l'app Netflix, come smart TV, smartphone, tablet, lettori
-                            multimediali
-                            per streaming e console per videogiochi.
-                        </p> <br>
-                        <p>
-                            Con l'app per iOS, Android e Windows 10 puoi anche scaricare i tuoi programmi preferiti.
-                            Usa la funzionalità di download per guardare i contenuti mentre sei in viaggio e senza
-                            connessione a Internet.
-                            Porta Netflix sempre con te.
-                        </p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Dove posso guardare Netflix?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Guarda Netflix dove vuoi, quando vuoi. Accedi al tuo account per guardare subito Netflix dal
+                            tuo
+                            computer su netflix.com oppure da qualsiasi dispositivo connesso a Internet che supporta
+                            l'app
+                            Netflix, come smart TV, smartphone, tablet, lettori multimediali per streaming e console per
+                            videogiochi.
+                            <br><br>
+                            Con l'app per iOS, Android e Windows 10 puoi anche scaricare i tuoi programmi preferiti. Usa
+                            la
+                            funzionalità di download per guardare i contenuti mentre sei in viaggio e senza connessione
+                            a
+                            Internet. Porta Netflix sempre con te.
+                        </div>
                     </div>
                 </div>
-                <div class="item flex-column">
-                    <span class="question flex-row">
-                        Come posso disdire?
-                        <img class="cross" src="assets/plus.png">
-                    </span>
-                    <div class="answer invisible">
-                        <p>
-                            Netflix è flessibile. Nessun contratto fastidioso e nessun impegno.
-                            Puoi facilmente disdire il tuo contratto online con due clic.
-                            Nessuna penale: attiva o disdici il tuo account in qualsiasi momento.
-                        </p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Come posso disdire?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Netflix è flessibile. Nessun contratto fastidioso e nessun impegno. Puoi facilmente disdire
+                            il
+                            tuo contratto online con due clic. Nessuna penale: attiva o disdici il tuo account in
+                            qualsiasi
+                            momento.
+                        </div>
                     </div>
                 </div>
-                <div class="item flex-column">
-                    <span class="question flex-row">
-                        Come posso disdire?
-                        <img class="cross" src="assets/plus.png">
-                    </span>
-                    <div class="answer invisible">
-                        <p>
-                            Netflix è flessibile. Nessun contratto fastidioso e nessun impegno.
-                            Puoi facilmente disdire il tuo contratto online con due clic.
-                            Nessuna penale: attiva o disdici il tuo account in qualsiasi momento.
-                        </p>
-                    </div>
-                </div>
-                <div class="item flex-column">
-                    <span class="question flex-row">
-                        Cosa posso guardare su Netflix?
-                        <img class="cross" src="assets/plus.png">
-                    </span>
-                    <div class="answer invisible">
-                        <p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Cosa posso guardare su Netflix?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
                             Netflix ha un nutrito catalogo di lungometraggi, documentari, serie TV, anime, originali
                             Netflix
-                            pluripremiati e tanto altro.
-                            Guarda tutto quello che vuoi, in qualsiasi momento.
-                        </p>
+                            pluripremiati e tanto altro. Guarda tutto quello che vuoi, in qualsiasi momento.
+                        </div>
                     </div>
                 </div>
-                <div class="item flex-column">
-                    <span class="question flex-row">
-                        Netflix è adatto ai bambini?
-                        <img class="cross" src="assets/plus.png">
-                    </span>
-                    <div class="answer invisible">
-                        <p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Netflix è adatto ai bambini?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
                             L'area Netflix Bambini, già inclusa nell'abbonamento, offre ai genitori un maggiore
-                            controllo
-                            sui contenuti
-                            e ai più piccoli uno spazio dedicato dove guardare serie TV e film per tutta la famiglia.
-                        </p> <br>
-                        <p>
+                            controllo sui contenuti e ai più piccoli uno spazio dedicato dove guardare serie TV e film
+                            per tutta la famiglia.
+                            <br><br>
                             I profili Bambini hanno un filtro famiglia con PIN che ti permette di limitare l'accesso ai
-                            contenuti
-                            in base alla fascia d'età e bloccare la visione di titoli specifici.
-                        </p>
+                            contenuti in base alla fascia d'età e bloccare la visione di titoli specifici.
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="flex-column">
+                <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo
+                    abbonamento.
+                </p>
+                <form class="flex-row">
+                    <input type="email" placeholder="Indirizzo email">
+                    <button class="flex-row">
+                        <span>Inizia</span>
+                        <img src="assets/arrow-white.png">
+                    </button>
+                </form>
             </div>
         </div>
     </body>

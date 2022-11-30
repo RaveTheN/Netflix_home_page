@@ -1,0 +1,27 @@
+.overlay,
+.overlay-content,
+.opacity {
+  transform: translate(0px, 0px);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.opacity {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.opacity > div {
+  height: 50%;
+  width: 100%;
+}
+
+.opacity > div:first-child {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+}
+
+/*# sourceMappingURL=overlay.css.map */

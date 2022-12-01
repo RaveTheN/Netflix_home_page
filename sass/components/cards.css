@@ -9,23 +9,21 @@
     max-width: 100%;
 }
 
-.video-container {
+.ovunque-card-video {
     height: 100%;
     left: 50%;
     max-height: 47%;
     max-width: 63%;
-    position: absolute;
     top: 34%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
 
-.tv-card {
+.tv-card-video {
     height: 100%;
     left: 50%;
     max-height: 55%;
     max-width: 100%;
-    position: absolute;
     top: 48%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -38,52 +36,29 @@
 
 .card-container .sub-container {
     align-items: center;
-    justify-content: space-between;
     margin: 0 auto;
     max-width: 1100px;
 }
 
-.card-container .sub-container .text {
-    padding: 0 0 0 3rem;
-}
-
-.card-container .text {
-    margin: -2% 0;
-}
-
-.card-container .Tvimage {
-    position: relative;
+.card-container .Tvimage, .card-container .device-img {
     z-index: 2;
 }
 
-.card-container .device-img {
-    position: relative;
-    z-index: 2;
-}
-
-.card-container .eleven-img {
-    position: relative;
-}
-
 .card-container .text {
-    flex: 0 1 auto;
+    
     height: 100%;
     padding: 0 3rem 0 0;
     width: 52%;
-    z-index: 3;
+    margin: -2% 0;
 }
 
 .card-container .media-container {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 1 auto;
     height: 100%;
     width: 48%;
 }
 
 .card-container .img-and-animation-container {
     overflow: hidden;
-    position: relative;
 }
 
 .card-subtitle {
@@ -91,28 +66,16 @@
     font-weight: 400;
 }
 
-.eleven {
-    margin: -8% 0 -4% -15%;
-    min-height: 100px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 .download-div {
     padding: 0.25em 0.65em;
-    align-items: center;
     background: #000;
     border: 2px solid hsla(0, 0%, 100%, .25);
     border-radius: 0.75em;
     bottom: 8%;
     box-shadow: 0 0 2em 0 #000;
-    display: flex;
-    justify-content: space-between;
     left: 50%;
     margin: 0 auto;
     min-width: 15em;
-    position: absolute;
     transform: translateX(-50%);
     width: 60%;
     height: 96px;
@@ -126,9 +89,6 @@
 .download-icon {
     background: url(../../assets/download-icon.gif) 50% no-repeat;
     background-size: 100%;
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 0;
     height: 3em;
     outline: 2px solid #000;
     outline-offset: -2px;

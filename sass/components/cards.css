@@ -1,14 +1,11 @@
-.card-container {
-    background: transparent;
+.card-container { 
     color: #fff;
-    margin-bottom: 0;
     padding: 50px 5%;
-    position: relative;
 }
 
+
 .card-container img {
-    border: 0;
-    height: auto;
+    
     max-width: 100%;
 }
 
@@ -41,14 +38,9 @@
 
 .card-container .sub-container {
     align-items: center;
-    display: flex;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1100px;
-}
-
-.flipped {
-    flex-flow: row-reverse;
 }
 
 .card-container .sub-container .text {
@@ -57,6 +49,11 @@
 
 .card-container .text {
     margin: -2% 0;
+}
+
+.card-container .Tvimage {
+    position: relative;
+    z-index: 2;
 }
 
 .card-container .device-img {

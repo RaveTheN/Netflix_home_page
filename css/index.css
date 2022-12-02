@@ -226,6 +226,19 @@ html > body {
 .card-container .sub-container .media-container img.Tvimage, .card-container .sub-container .media-container img.device-img {
   z-index: 2;
 }
+.card-container .sub-container .media-container .video {
+  height: 100%;
+  width: 100%;
+}
+.card-container .sub-container .media-container .tv-card-video {
+  height: 100%;
+  left: 50%;
+  max-height: 56%;
+  max-width: 100%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
 .card-container .sub-container .media-container .ovunque-card-video {
   height: 100%;
   left: 50%;
@@ -233,19 +246,6 @@ html > body {
   max-width: 63%;
   top: 34%;
   transform: translate(-50%, -50%);
-  width: 100%;
-}
-.card-container .sub-container .media-container .tv-card-video {
-  height: 100%;
-  left: 50%;
-  max-height: 55%;
-  max-width: 100%;
-  top: 48%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-.card-container .sub-container .media-container .video {
-  height: 100%;
   width: 100%;
 }
 .card-container .sub-container .media-container .download-div {
@@ -409,6 +409,60 @@ button.accordion-button::after {
   color: var(--text-primary);
   border: 1px solid var(--comp-primary);
   background-color: var(--comp-primary);
+}
+
+.footer {
+  height: 265px;
+  width: 98.72vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95));
+  bottom: 242px;
+  color: #737373;
+}
+.footer .footer-content {
+  width: 70vw;
+  height: 100%;
+  position: relative;
+  left: 10%;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  font-size: 13px;
+  list-style: none;
+}
+.footer .domande {
+  padding: 27px 0 20px 38px;
+}
+.footer select {
+  background-color: black;
+  border: 1px solid #737373;
+  border-radius: 2px;
+  color: #737373;
+  padding: 12px 6px 12px 35px;
+  font-size: 17px;
+}
+.footer .selector {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 0 23px;
+}
+.footer .selector .select-icon {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  left: 30px;
+}
+.footer .footer-country {
+  font-size: 13px;
+  margin-top: 24px;
 }
 
 /*# sourceMappingURL=index.css.map */

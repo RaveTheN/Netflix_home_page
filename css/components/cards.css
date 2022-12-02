@@ -27,6 +27,19 @@
 .card-container .sub-container .media-container img.Tvimage, .card-container .sub-container .media-container img.device-img {
   z-index: 2;
 }
+.card-container .sub-container .media-container .video {
+  height: 100%;
+  width: 100%;
+}
+.card-container .sub-container .media-container .tv-card-video {
+  height: 100%;
+  left: 50%;
+  max-height: 56%;
+  max-width: 100%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
 .card-container .sub-container .media-container .ovunque-card-video {
   height: 100%;
   left: 50%;
@@ -34,19 +47,6 @@
   max-width: 63%;
   top: 34%;
   transform: translate(-50%, -50%);
-  width: 100%;
-}
-.card-container .sub-container .media-container .tv-card-video {
-  height: 100%;
-  left: 50%;
-  max-height: 55%;
-  max-width: 100%;
-  top: 48%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-.card-container .sub-container .media-container .video {
-  height: 100%;
   width: 100%;
 }
 .card-container .sub-container .media-container .download-div {

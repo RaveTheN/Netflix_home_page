@@ -30,6 +30,21 @@
                 }
             }
 
+            .video {
+                height: 100%;
+                width: 100%;
+            }
+
+            .tv-card-video {
+                height: 100%;
+                left: 50%;
+                max-height: 56%;
+                max-width: 100%;
+                top: 48%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+            }
+
             .ovunque-card-video {
                 height: 100%;
                 left: 50%;
@@ -39,21 +54,7 @@
                 transform: translate(-50%, -50%);
                 width: 100%;
             }
-            
-            .tv-card-video {
-                height: 100%;
-                left: 50%;
-                max-height: 55%;
-                max-width: 100%;
-                top: 48%;
-                transform: translate(-50%, -50%);
-                width: 100%;
-            }
 
-            .video {
-                height: 100%;
-                width: 100%;
-            }
 
             .download-div {
                 padding: 0.25em 0.65em;
@@ -68,12 +69,12 @@
                 transform: translateX(-50%);
                 width: 60%;
                 height: 96px;
-            
+
                 &.download-div img {
                     height: 4.5em;
                     max-width: 100%;
                 }
-                
+
                 .download-icon {
                     background: url(../../assets/download-icon.gif) 50% no-repeat;
                     background-size: 100%;

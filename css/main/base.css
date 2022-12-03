@@ -7,7 +7,7 @@ html {
   font-size: 16px;
 }
 html > body {
-  background-color: var(--bg-primary);
+  background-color: black;
 }
 
 * {

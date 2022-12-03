@@ -1,0 +1,117 @@
+@use "../main/root.scss" as var;
+
+.faq-container {
+    padding: 70px 45px;
+
+    & > h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: var.$text-primary;
+    }
+
+    & > div {
+        &:last-child {
+            & > p {
+                font-size: 20px;
+                margin-top: 30px;
+                color: var.$text-primary;
+            }
+
+            img {
+                height: 20px;
+            }
+
+            & > form {
+                justify-content: center;
+
+                & > input {
+                    height: 63px;
+                    width: 450px;
+                    padding-left: 12px;
+                    border: 1px solid rgb(165, 165, 165);
+                }
+
+                & > button {
+                    height: 63px;
+                    width: 137px;
+                    gap: 10px;
+                    font-size: 27px;
+                    justify-content: center;
+                    color: var.$text-primary;
+                    border: 1px solid var.$comp-primary;
+                    background-color: var.$comp-primary;
+                }
+            }
+        }
+    }
+
+    & > .faq {
+        width: 815px;
+        margin: 2rem auto;
+
+        & > div {
+            width: 100%;
+
+            &:nth-child(3) a {
+                color: inherit;
+            }
+        }
+
+        & > .accordion-item {
+            background-color: inherit;
+            color: var.$text-primary;
+            border: 0;
+
+            &:last-of-type .accordion-collapse {
+                border-radius: 0;
+            }
+
+            & > h2 {
+                height: 74px;
+                background-color: var.$bg-secondary;
+                margin-block: 10px 1px;
+
+                & > button {
+                    padding: 20px 30px;
+                    font-size: 26px;
+                }
+            }
+
+            & > div {
+                font-size: 26px;
+                background-color: var.$bg-secondary;
+            }
+
+            .accordion-button {
+                color: var.$text-primary;
+                background-color: var.$bg-secondary;
+
+                &:not(.collapsed) {
+                    background-color: var.$bg-secondary;
+                    color: var.$text-primary;
+                    box-shadow: none;
+                    border: 0;
+
+                    &::after {
+                        background-image: url(../../assets/plus.png);
+                        transform: rotate(45deg);
+                        transition: transform 0s;
+                    }
+                }
+
+                &:focus {
+                    box-shadow: none;
+                    border: 0;
+                }
+
+                &::after {
+                    background-image: url(../../assets/plus.png);
+                }
+            }
+
+            .accordion-body {
+                padding: 20px 30px;
+            }
+        }
+    }
+}

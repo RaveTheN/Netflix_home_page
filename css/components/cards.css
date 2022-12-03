@@ -13,6 +13,10 @@
   width: 52%;
   margin: -2% 0;
 }
+.card-container .sub-container .text .card-title {
+  font-weight: 800;
+  font-size: 46px;
+}
 .card-container .sub-container .text .card-subtitle {
   font-size: 1.625rem;
   font-weight: 400;

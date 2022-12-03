@@ -1,4 +1,4 @@
-.card-container { 
+.card-container {
     color: #fff;
     padding: 50px 5%;
 
@@ -12,6 +12,12 @@
             padding: 0 3rem 0 0;
             width: 52%;
             margin: -2% 0;
+
+            .card-title {
+                font-weight: 800;
+                font-size: 46px;
+            }
+
             .card-subtitle {
                 font-size: 1.625rem;
                 font-weight: 400;
@@ -23,9 +29,10 @@
             width: 48%;
 
             img {
-    
                 max-width: 100%;
-                &.Tvimage, &.device-img {
+
+                &.Tvimage,
+                &.device-img {
                     z-index: 2;
                 }
             }
@@ -55,7 +62,6 @@
                 width: 100%;
             }
 
-
             .download-div {
                 padding: 0.25em 0.65em;
                 background: #000;
@@ -83,12 +89,12 @@
                     outline-offset: -2px;
                     width: 3em;
                 }
-                
+
                 .text-0 {
                     font-size: 1em;
                     font-weight: 500;
                 }
-                
+
                 .text-1 {
                     color: #0071eb;
                     font-size: .9em;
@@ -96,7 +102,7 @@
                 }
             }
         }
-    } 
+    }
 }
 
 @media only screen and (max-width: 349px),

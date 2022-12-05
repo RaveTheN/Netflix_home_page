@@ -1,0 +1,17 @@
+@media (max-width: 740px) {
+    .overlay {
+        height: 720px;
+
+        & > .opacity {
+            @extend .overlay;
+        }
+
+        & > .overlay-content {
+            top: 0;
+
+            & > div > p {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

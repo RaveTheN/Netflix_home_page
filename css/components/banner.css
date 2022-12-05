@@ -3,7 +3,7 @@
 /* Components Colors */
 /* Sizes */
 .banner {
-  width: 100%;
+  width: 100vw;
   height: 66px;
   background-color: white;
   justify-content: center;

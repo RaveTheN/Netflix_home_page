@@ -2,40 +2,40 @@
   color: #fff;
   padding: 50px 5%;
 }
-.card-container .sub-container {
+.card-container > .sub-container {
   align-items: center;
   margin: 0 auto;
   max-width: 1100px;
 }
-.card-container .sub-container .text {
+.card-container > .sub-container > .text {
   height: 100%;
   padding: 0 3rem 0 0;
   width: 52%;
   margin: -2% 0;
 }
-.card-container .sub-container .text .card-title {
+.card-container > .sub-container > .text > .card-title {
   font-weight: 800;
   font-size: 46px;
 }
-.card-container .sub-container .text .card-subtitle {
+.card-container > .sub-container > .text > .card-subtitle {
   font-size: 1.625rem;
   font-weight: 400;
 }
-.card-container .sub-container .media-container {
+.card-container > .sub-container > .media-container {
   height: 100%;
   width: 48%;
 }
-.card-container .sub-container .media-container img {
+.card-container > .sub-container > .media-container img {
   max-width: 100%;
 }
-.card-container .sub-container .media-container img.Tvimage, .card-container .sub-container .media-container img.device-img {
+.card-container > .sub-container > .media-container img.tv-image, .card-container > .sub-container > .media-container img.device-img {
   z-index: 2;
 }
-.card-container .sub-container .media-container .video {
+.card-container > .sub-container > .media-container .video {
   height: 100%;
   width: 100%;
 }
-.card-container .sub-container .media-container .tv-card-video {
+.card-container > .sub-container > .media-container .tv-card-video {
   height: 100%;
   left: 50%;
   max-height: 56%;
@@ -44,7 +44,7 @@
   transform: translate(-50%, -50%);
   width: 100%;
 }
-.card-container .sub-container .media-container .ovunque-card-video {
+.card-container > .sub-container > .media-container .ovunque-card-video {
   height: 100%;
   left: 50%;
   max-height: 47%;
@@ -53,7 +53,7 @@
   transform: translate(-50%, -50%);
   width: 100%;
 }
-.card-container .sub-container .media-container .download-div {
+.card-container > .sub-container > .media-container .download-div {
   padding: 0.25em 0.65em;
   background: #000;
   border: 2px solid hsla(0deg, 0%, 100%, 0.25);
@@ -67,11 +67,11 @@
   width: 60%;
   height: 96px;
 }
-.card-container .sub-container .media-container .download-div.download-div img {
+.card-container > .sub-container > .media-container .download-div img {
   height: 4.5em;
   max-width: 100%;
 }
-.card-container .sub-container .media-container .download-div .download-icon {
+.card-container > .sub-container > .media-container .download-div > .download-icon {
   background: url(../../assets/download-icon.gif) 50% no-repeat;
   background-size: 100%;
   height: 3em;
@@ -79,38 +79,14 @@
   outline-offset: -2px;
   width: 3em;
 }
-.card-container .sub-container .media-container .download-div .text-0 {
+.card-container > .sub-container > .media-container .download-div .text-0 {
   font-size: 1em;
   font-weight: 500;
 }
-.card-container .sub-container .media-container .download-div .text-1 {
+.card-container > .sub-container > .media-container .download-div .text-1 {
   color: #0071eb;
   font-size: 0.9em;
   font-weight: 400;
-}
-
-@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
-  .card-container .sub-container {
-    flex-flow: column;
-    flex-direction: column;
-  }
-  .card-container .sub-container .text {
-    padding: 0;
-  }
-  .card-container .text {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    width: 100%;
-  }
-  .card-container .media-container {
-    margin-top: 1em;
-    max-width: 600px;
-    width: 100%;
-  }
-  .card-container {
-    padding: 70px 45px;
-  }
 }
 
 /*# sourceMappingURL=cards.css.map */

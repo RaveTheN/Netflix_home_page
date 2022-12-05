@@ -1,0 +1,58 @@
+@media (max-width: 550px) {
+    .overlay {
+        height: 650px;
+
+        & > .opacity {
+            @extend .overlay
+        }
+
+        & > .overlay-header {
+            img {
+                width: 15px;
+            }
+        }
+
+        & > .overlay-content {
+            top: 0;
+
+            & > div {
+                & > h1 {
+                    width: 90%;
+                    font-size: 26px;
+                    margin: auto;
+                }
+
+                & > h2 {
+                    width: 90%;
+                    font-size: 18px;
+                    margin: auto;
+                }
+
+                & > p {
+                    width: 90%;
+                    font-size: 18px;
+                    margin: auto;
+                    line-height: 1;
+                }
+
+                & > form {
+                    & > input {
+                        height: 45px;
+                    }
+
+                    & > button {
+                        height: 40px;
+                        width: 80px;
+                        font-size: 18px;
+                        margin-top: 15px;
+
+                        & > img {
+                            height: 14px;
+                            bottom: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

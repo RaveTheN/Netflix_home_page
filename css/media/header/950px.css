@@ -1,0 +1,42 @@
+@media (max-width: 950px) {
+  .overlay, .overlay > .opacity {
+    height: 770px;
+  }
+  .overlay > .overlay-header > img {
+    height: 1.5rem;
+    width: auto;
+  }
+  .overlay > .overlay-content > div > form {
+    display: flex;
+    flex-direction: column;
+  }
+  .overlay > .overlay-content > div > form > input {
+    height: 60px;
+  }
+  .overlay > .overlay-content > div > form > button {
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .overlay > .overlay-content > div > form > button > img {
+    height: 14px;
+    bottom: 6px;
+  }
+  .overlay > .overlay-content > div > h1 {
+    width: 70%;
+    font-size: 3rem;
+    margin: auto;
+  }
+  .overlay > .overlay-content > div > h2 {
+    margin: auto;
+  }
+  .overlay > .overlay-content > div > p {
+    font-size: 23px;
+    width: 500px;
+    margin: auto;
+    line-height: 1;
+  }
+}
+
+/*# sourceMappingURL=950px.css.map */

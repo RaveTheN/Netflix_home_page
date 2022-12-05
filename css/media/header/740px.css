@@ -1,0 +1,13 @@
+@media (max-width: 740px) {
+  .overlay, .overlay > .opacity {
+    height: 720px;
+  }
+  .overlay > .overlay-content, .overlay > .opacity > .overlay-content {
+    top: 0;
+  }
+  .overlay > .overlay-content > div > p {
+    font-size: 1.1rem;
+  }
+}
+
+/*# sourceMappingURL=740px.css.map */

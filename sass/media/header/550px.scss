@@ -1,5 +1,6 @@
 @media (max-width: 550px) {
     .overlay {
+        max-width: 550px;
         height: 650px;
 
         & > .opacity {
@@ -7,8 +8,16 @@
         }
 
         & > .overlay-header {
+            margin: 0 5%;
+            max-width: 100%;
+            padding: 28px 0px 0px;
             img {
                 width: 15px;
+                margin-right: auto;
+            }
+
+            & > select {
+                padding: 0;
             }
         }
 
@@ -17,9 +26,10 @@
 
             & > div {
                 & > h1 {
+                    margin: 0 auto;
                     width: 90%;
-                    font-size: 26px;
-                    margin: auto;
+                    font-size: 1.75rem;
+                    margin-right: auto;
                 }
 
                 & > h2 {

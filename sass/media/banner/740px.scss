@@ -1,0 +1,32 @@
+@media (max-width: 740px) {
+    
+    .banner {
+
+        padding: 0 1rem;
+        gap: 12px;
+
+        & > .news {
+            font-size: 0.6rem;
+        }
+        & > .offer {
+            font-size: 14px;
+            span {
+                font-size: 15px;
+                font-weight: 800;
+            }
+        }
+        & > .more {
+            
+            font-size: .1rem;
+            margin: 0 .5em;
+            
+            img {
+                
+                width: 12px;
+                height: 12px;
+            }
+
+        }
+    }
+
+}

@@ -562,18 +562,29 @@ html > body {
 }
 @media (max-width: 550px) {
   .overlay, .overlay > .opacity {
+    max-width: 550px;
     height: 650px;
+  }
+  .overlay > .overlay-header, .overlay > .opacity > .overlay-header {
+    margin: 0 5%;
+    max-width: 100%;
+    padding: 28px 0px 0px;
   }
   .overlay > .overlay-header img {
     width: 15px;
+    margin-right: auto;
+  }
+  .overlay > .overlay-header > select {
+    padding: 0;
   }
   .overlay > .overlay-content, .overlay > .opacity > .overlay-content {
     top: 0;
   }
   .overlay > .overlay-content > div > h1 {
+    margin: 0 auto;
     width: 90%;
-    font-size: 26px;
-    margin: auto;
+    font-size: 1.75rem;
+    margin-right: auto;
   }
   .overlay > .overlay-content > div > h2 {
     width: 90%;
@@ -600,7 +611,7 @@ html > body {
     bottom: 6px;
   }
 }
-@media (max-width: 740px) {
+@media (min-width: 741px) {
   .overlay, .overlay > .opacity {
     height: 720px;
   }
@@ -611,7 +622,7 @@ html > body {
     font-size: 1.1rem;
   }
 }
-@media (max-width: 950px) {
+@media (min-width: 951px) {
   .overlay, .overlay > .opacity {
     height: 770px;
   }
@@ -649,6 +660,78 @@ html > body {
     width: 500px;
     margin: auto;
     line-height: 1;
+  }
+}
+@media (max-width: 550px) {
+  .banner {
+    padding: 0 1rem;
+    gap: 12px;
+  }
+  .banner > .news {
+    font-size: 0.6rem;
+  }
+  .banner > .offer {
+    font-size: 14px;
+  }
+  .banner > .offer span {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .banner > .more {
+    font-size: 0.1rem;
+    margin: 0 0.5em;
+  }
+  .banner > .more img {
+    width: 12px;
+    height: 12px;
+  }
+}
+@media (max-width: 740px) {
+  .banner {
+    padding: 0 1rem;
+    gap: 12px;
+  }
+  .banner > .news {
+    font-size: 0.6rem;
+  }
+  .banner > .offer {
+    font-size: 14px;
+  }
+  .banner > .offer span {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .banner > .more {
+    font-size: 0.1rem;
+    margin: 0 0.5em;
+  }
+  .banner > .more img {
+    width: 12px;
+    height: 12px;
+  }
+}
+@media (max-width: 950px) {
+  .banner {
+    padding: 0 1rem;
+    gap: 12px;
+  }
+  .banner > .news {
+    font-size: 0.6rem;
+  }
+  .banner > .offer {
+    font-size: 14px;
+  }
+  .banner > .offer span {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .banner > .more {
+    font-size: 0.1rem;
+    margin: 0 0.5em;
+  }
+  .banner > .more img {
+    width: 12px;
+    height: 12px;
   }
 }
 

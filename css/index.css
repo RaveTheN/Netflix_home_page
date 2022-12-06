@@ -446,6 +446,42 @@ html > body {
     max-width: 600px;
     width: 100%;
   }
+  .card-container > .sub-container > .media-container .download-div {
+    padding: 0.25em 0.65em;
+    background: #000;
+    border: 2px solid hsla(0deg, 0%, 100%, 0.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: 0.25em 0.65em;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 68px;
+  }
+  .card-container > .sub-container > .media-container .download-div > .download-icon {
+    background: url(../../assets/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+  }
+  .card-container > .sub-container > .media-container .download-div img {
+    height: 3em;
+    max-width: 100%;
+  }
+  .card-container > .sub-container > .media-container .download-div .text-0 {
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  .card-container > .sub-container > .media-container .download-div .text-1 {
+    color: #0071eb;
+    font-size: 0.75em;
+    font-weight: 400;
+  }
   .card-container > .sub-container > .text {
     width: 100%;
     height: 100%;
@@ -461,43 +497,8 @@ html > body {
     font-size: 1.125rem;
     font-weight: 400;
   }
-  .card-container > .sub-container .download-div {
-    padding: 0.25em 0.65em;
-    background: #000;
-    border: 2px solid hsla(0deg, 0%, 100%, 0.25);
-    border-radius: 0.75em;
-    bottom: 8%;
-    box-shadow: 0 0 2em 0 #000;
-    left: 50%;
-    margin: 0 auto;
-    min-width: 15em;
-    padding: 0.25em 0.65em;
-    transform: translateX(-50%);
-    width: 60%;
-  }
-  .card-container > .sub-container .download-div > .download-icon {
-    background: url(../../assets/download-icon.gif) 50% no-repeat;
-    background-size: 100%;
-    height: 3em;
-    outline: 2px solid #000;
-    outline-offset: -2px;
-    width: 3em;
-  }
-  .card-container > .sub-container .download-div img {
-    height: 3em;
-    max-width: 100%;
-  }
-  .card-container > .sub-container .download-div .text-0 {
-    font-size: 0.9em;
-    font-weight: 500;
-  }
-  .card-container > .sub-container .download-div .text-1 {
-    color: #0071eb;
-    font-size: 0.75em;
-    font-weight: 400;
-  }
 }
-@media (max-width: 550px) {
+@media (min-width: 741px) {
   .card-container {
     padding: 70px 45px;
   }
@@ -561,35 +562,103 @@ html > body {
   }
 }
 @media (max-width: 550px) {
+  .faq-container {
+    padding: 50px 0;
+  }
+  .faq-container > h1 {
+    font-size: 1.625rem;
+    margin-bottom: 0.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .faq-container .faq {
+    width: 100%;
+    margin: 0;
+  }
+  .faq-container .faq .accordion-item .accordion-header {
+    height: 68px;
+  }
+  .faq-container .faq .accordion-item .accordion-header .accordion-button {
+    font-size: 1.125rem;
+    height: 80%;
+    padding: 0.8em 0.8em 0em 1.2em;
+  }
+  .faq-container > div:last-child > p {
+    width: 90%;
+    font-size: 18px;
+    margin: auto;
+    line-height: 1;
+  }
+  .faq-container > div:last-child > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5%;
+    gap: 22px;
+  }
+  .faq-container > div:last-child > form > input {
+    height: 48px;
+    padding: 10px 10px 0;
+    width: 100%;
+  }
+  .faq-container > div:last-child > form > button {
+    height: 100%;
+    width: 80px;
+    font-size: 18px;
+  }
+  .faq-container > div:last-child > form > button > img {
+    height: 14px;
+    bottom: 6px;
+  }
+}
+@media (max-width: 550px) {
+  .footer .footer-content {
+    margin: 0;
+    padding: 50px 19.5px 0px;
+  }
+  .footer .footer-content .info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 550px) {
   .overlay, .overlay > .opacity {
-    max-width: 550px;
     height: 650px;
   }
   .overlay > .overlay-header, .overlay > .opacity > .overlay-header {
-    margin: 0 5%;
-    max-width: 100%;
-    padding: 28px 0px 0px;
+    padding: 28px 5% 0px;
   }
   .overlay > .overlay-header img {
-    width: 15px;
-    margin-right: auto;
+    width: 20%;
   }
-  .overlay > .overlay-header > select {
-    padding: 0;
+  .overlay > .overlay-header > div > img {
+    height: 15px;
+  }
+  .overlay > .overlay-header > div > select {
+    font-size: 0.875rem;
+    padding: 3px 0px 0px 20px;
   }
   .overlay > .overlay-content, .overlay > .opacity > .overlay-content {
     top: 0;
+    align-content: space-between;
+  }
+  .overlay > .overlay-content > div {
+    flex-wrap: wrap;
+    align-content: center;
   }
   .overlay > .overlay-content > div > h1 {
     margin: 0 auto;
     width: 90%;
     font-size: 1.75rem;
     margin-right: auto;
+    color: #fff;
+    text-align: center;
   }
   .overlay > .overlay-content > div > h2 {
     width: 90%;
     font-size: 18px;
-    margin: auto;
+    margin: 1rem auto;
+    color: #fff;
+    text-align: center;
   }
   .overlay > .overlay-content > div > p {
     width: 90%;
@@ -597,21 +666,29 @@ html > body {
     margin: auto;
     line-height: 1;
   }
+  .overlay > .overlay-content > div > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5%;
+    gap: 22px;
+  }
   .overlay > .overlay-content > div > form > input {
-    height: 45px;
+    height: 48px;
+    padding: 10px 10px 0;
+    width: 100%;
   }
   .overlay > .overlay-content > div > form > button {
-    height: 40px;
+    height: 100%;
     width: 80px;
     font-size: 18px;
-    margin-top: 15px;
   }
   .overlay > .overlay-content > div > form > button > img {
     height: 14px;
     bottom: 6px;
   }
 }
-@media (min-width: 741px) {
+@media (min-width: 551px) {
   .overlay, .overlay > .opacity {
     height: 720px;
   }

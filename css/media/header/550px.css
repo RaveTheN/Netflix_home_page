@@ -1,33 +1,42 @@
 @media (max-width: 550px) {
   .overlay, .overlay > .opacity {
-    max-width: 550px;
     height: 650px;
   }
   .overlay > .overlay-header, .overlay > .opacity > .overlay-header {
-    margin: 0 5%;
-    max-width: 100%;
-    padding: 28px 0px 0px;
+    padding: 28px 5% 0px;
   }
   .overlay > .overlay-header img {
-    width: 15px;
-    margin-right: auto;
+    width: 20%;
   }
-  .overlay > .overlay-header > select {
-    padding: 0;
+  .overlay > .overlay-header > div > img {
+    height: 15px;
+  }
+  .overlay > .overlay-header > div > select {
+    font-size: 0.875rem;
+    padding: 3px 0px 0px 20px;
   }
   .overlay > .overlay-content, .overlay > .opacity > .overlay-content {
     top: 0;
+    align-content: space-between;
+  }
+  .overlay > .overlay-content > div {
+    flex-wrap: wrap;
+    align-content: center;
   }
   .overlay > .overlay-content > div > h1 {
     margin: 0 auto;
     width: 90%;
     font-size: 1.75rem;
     margin-right: auto;
+    color: #fff;
+    text-align: center;
   }
   .overlay > .overlay-content > div > h2 {
     width: 90%;
     font-size: 18px;
-    margin: auto;
+    margin: 1rem auto;
+    color: #fff;
+    text-align: center;
   }
   .overlay > .overlay-content > div > p {
     width: 90%;
@@ -35,14 +44,22 @@
     margin: auto;
     line-height: 1;
   }
+  .overlay > .overlay-content > div > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5%;
+    gap: 22px;
+  }
   .overlay > .overlay-content > div > form > input {
-    height: 45px;
+    height: 48px;
+    padding: 10px 10px 0;
+    width: 100%;
   }
   .overlay > .overlay-content > div > form > button {
-    height: 40px;
+    height: 100%;
     width: 80px;
     font-size: 18px;
-    margin-top: 15px;
   }
   .overlay > .overlay-content > div > form > button > img {
     height: 14px;

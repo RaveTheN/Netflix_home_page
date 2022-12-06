@@ -1,0 +1,63 @@
+@media (max-width: 550px) {
+    .faq-container {
+        
+        & > h1 {
+            font-size: 1.625rem;
+            margin-bottom: 0.5rem;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        padding: 50px 0;
+        .faq {
+            width: 100%;
+            margin: 0;
+            .accordion-item {
+                .accordion-header {
+                    height: 68px;
+                    .accordion-button {
+                        font-size: 1.125rem;
+                        height: 80%;
+                        padding: 0.8em 0.8em 0em 1.2em;
+                    }
+                }
+                
+            }
+        }
+
+        & > div {
+            &:last-child {
+                & > p {
+                    width: 90%;
+                    font-size: 18px;
+                    margin: auto;
+                    line-height: 1;
+                }
+
+                & > form {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    padding: 0 5%;
+                    gap: 22px;
+                    & > input {
+                        height: 48px;
+                        padding: 10px 10px 0;
+                        width: 100%;
+                    }
+
+                    & > button {
+                        height: 100%;
+                        width: 80px;
+                        font-size: 18px;
+                        
+
+                        & > img {
+                            height: 14px;
+                            bottom: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

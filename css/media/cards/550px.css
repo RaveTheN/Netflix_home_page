@@ -11,6 +11,42 @@
     max-width: 600px;
     width: 100%;
   }
+  .card-container > .sub-container > .media-container .download-div {
+    padding: 0.25em 0.65em;
+    background: #000;
+    border: 2px solid hsla(0deg, 0%, 100%, 0.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: 0.25em 0.65em;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 68px;
+  }
+  .card-container > .sub-container > .media-container .download-div > .download-icon {
+    background: url(../../assets/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+  }
+  .card-container > .sub-container > .media-container .download-div img {
+    height: 3em;
+    max-width: 100%;
+  }
+  .card-container > .sub-container > .media-container .download-div .text-0 {
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  .card-container > .sub-container > .media-container .download-div .text-1 {
+    color: #0071eb;
+    font-size: 0.75em;
+    font-weight: 400;
+  }
   .card-container > .sub-container > .text {
     width: 100%;
     height: 100%;
@@ -24,41 +60,6 @@
   }
   .card-container > .sub-container > .text > .card-subtitle {
     font-size: 1.125rem;
-    font-weight: 400;
-  }
-  .card-container > .sub-container .download-div {
-    padding: 0.25em 0.65em;
-    background: #000;
-    border: 2px solid hsla(0deg, 0%, 100%, 0.25);
-    border-radius: 0.75em;
-    bottom: 8%;
-    box-shadow: 0 0 2em 0 #000;
-    left: 50%;
-    margin: 0 auto;
-    min-width: 15em;
-    padding: 0.25em 0.65em;
-    transform: translateX(-50%);
-    width: 60%;
-  }
-  .card-container > .sub-container .download-div > .download-icon {
-    background: url(../../assets/download-icon.gif) 50% no-repeat;
-    background-size: 100%;
-    height: 3em;
-    outline: 2px solid #000;
-    outline-offset: -2px;
-    width: 3em;
-  }
-  .card-container > .sub-container .download-div img {
-    height: 3em;
-    max-width: 100%;
-  }
-  .card-container > .sub-container .download-div .text-0 {
-    font-size: 0.9em;
-    font-weight: 500;
-  }
-  .card-container > .sub-container .download-div .text-1 {
-    color: #0071eb;
-    font-size: 0.75em;
     font-weight: 400;
   }
 }

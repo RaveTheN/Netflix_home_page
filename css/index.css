@@ -295,7 +295,7 @@ html > body {
 }
 .faq-container > h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: white;
 }
@@ -435,12 +435,9 @@ html > body {
   margin-top: 24px;
 }
 
-@media (min-width: 741px) {
+@media (max-width: 950px) {
   .card-container {
     padding: 70px 45px;
-  }
-  .card-container > .sub-container {
-    flex-direction: column;
   }
   .card-container > .sub-container > .media-container {
     margin-top: 1em;
@@ -495,6 +492,67 @@ html > body {
   .card-container > .sub-container .download-div .text-1 {
     color: #0071eb;
     font-size: 0.75em;
+    font-weight: 400;
+  }
+}
+@media (max-width: 550px) {
+  .card-container {
+    padding: 70px 45px;
+  }
+  .card-container > .sub-container > .media-container {
+    margin-top: 1em;
+    max-width: 600px;
+    width: 100%;
+  }
+  .card-container > .sub-container > .media-container .download-div {
+    padding: 0.25em 0.65em;
+    background: #000;
+    border: 2px solid hsla(0deg, 0%, 100%, 0.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: 0.25em 0.65em;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 68px;
+  }
+  .card-container > .sub-container > .media-container .download-div > .download-icon {
+    background: url(../../assets/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+  }
+  .card-container > .sub-container > .media-container .download-div img {
+    height: 3em;
+    max-width: 100%;
+  }
+  .card-container > .sub-container > .media-container .download-div .text-0 {
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  .card-container > .sub-container > .media-container .download-div .text-1 {
+    color: #0071eb;
+    font-size: 0.75em;
+    font-weight: 400;
+  }
+  .card-container > .sub-container > .text {
+    width: 100%;
+    height: 100%;
+    margin: -2% 0;
+    padding: 0;
+    text-align: center;
+  }
+  .card-container > .sub-container > .text > .card-title {
+    font-weight: 500;
+    font-size: 1.625rem;
+  }
+  .card-container > .sub-container > .text > .card-subtitle {
+    font-size: 1.125rem;
     font-weight: 400;
   }
 }
@@ -593,38 +651,38 @@ html > body {
     width: 85px;
     font-size: 1rem;
     gap: 5px;
-    border-radius: 4px;
+    border-radius: 2px;
   }
   .faq-container > div:last-child > form > button > img {
     height: 12px;
   }
 }
-@media (max-width: 550px) {
-  .faq-container {
-    padding: 50px 0;
-  }
-  .faq-container > h1 {
-    font-size: 1.625rem;
-    margin-bottom: 0.5rem;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .faq-container .faq {
-    width: 100%;
-    margin: 0;
-  }
-  .faq-container .faq .accordion-item .accordion-header {
-    height: 68px;
-  }
-  .faq-container .faq .accordion-item .accordion-header .accordion-button {
-    font-size: 1.125rem;
-    height: 80%;
-    padding: 0.8em 0.8em 0em 1.2em;
-  }
+@media (max-width: 740px) {
   .faq-container > div:last-child > p {
     width: 90%;
     font-size: 18px;
-    margin: auto;
+  }
+}
+@media (max-width: 550px) {
+  .faq-container {
+    width: 100%;
+    padding-inline: 0;
+  }
+  .faq-container > h1 {
+    font-size: 1.6rem;
+  }
+  .faq-container .faq {
+    width: 100%;
+    margin-inline: 0;
+    padding-inline: 0;
+  }
+  .faq-container .faq > .accordion-item {
+    width: 100%;
+  }
+  .faq-container > div:last-child > p {
+    width: 80%;
+    font-size: 18px;
+    margin: 15px auto;
     line-height: 1;
   }
   .faq-container > div:last-child > form {
@@ -636,17 +694,14 @@ html > body {
   }
   .faq-container > div:last-child > form > input {
     height: 48px;
+    width: 90%;
     padding: 10px 10px 0;
-    width: 100%;
   }
   .faq-container > div:last-child > form > button {
-    height: 100%;
-    width: 80px;
-    font-size: 18px;
+    font-size: 1rem;
   }
   .faq-container > div:last-child > form > button > img {
-    height: 14px;
-    bottom: 6px;
+    height: 12px;
   }
 }
 @media (max-width: 550px) {

@@ -1,4 +1,4 @@
-@media (min-width: 951px) {
+@media (max-width: 950px) {
   .overlay, .overlay > .opacity {
     height: 770px;
   }
@@ -6,12 +6,12 @@
     height: 1.5rem;
     width: auto;
   }
-  .overlay > .overlay-content > h1 {
+  .overlay > .overlay-content > div > h1 {
     width: 70%;
     font-size: 3rem;
     margin: 0 auto;
   }
-  .overlay > .overlay-content > h2 {
+  .overlay > .overlay-content > div > h2 {
     margin: 0 auto;
   }
   .overlay > .overlay-content > div > form {

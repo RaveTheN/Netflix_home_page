@@ -1,3 +1,8 @@
-
+@media (max-width: 740px) {
+  .faq-container > div:last-child > p {
+    width: 90%;
+    font-size: 18px;
+  }
+}
 
 /*# sourceMappingURL=740px.css.map */

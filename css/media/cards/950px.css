@@ -1,9 +1,6 @@
-@media (min-width: 741px) {
+@media (max-width: 950px) {
   .card-container {
     padding: 70px 45px;
-  }
-  .card-container > .sub-container {
-    flex-direction: column;
   }
   .card-container > .sub-container > .media-container {
     margin-top: 1em;

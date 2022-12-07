@@ -8,22 +8,22 @@
     z-index: 1;
     top: var.$banner-height;
 
-    & > h1 {
-        width: 950px;
-        font-size: 3.6rem;
-        line-height: 1.1;
-        font-weight: 700;
-        color: var.$text-primary;
-        text-align: center;
-    }
-
-    & > h2 {
-        color: var.$text-primary;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
     & > div {
+        & > h1 {
+            width: 950px;
+            font-size: 3.6rem;
+            line-height: 1.1;
+            font-weight: 700;
+            color: var.$text-primary;
+            text-align: center;
+        }
+
+        & > h2 {
+            color: var.$text-primary;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
         & > p {
             color: var.$text-primary;
             text-align: center;

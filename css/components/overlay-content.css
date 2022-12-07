@@ -10,7 +10,7 @@
   z-index: 1;
   top: 66px;
 }
-.overlay-content > h1 {
+.overlay-content > div > h1 {
   width: 950px;
   font-size: 3.6rem;
   line-height: 1.1;
@@ -18,7 +18,7 @@
   color: white;
   text-align: center;
 }
-.overlay-content > h2 {
+.overlay-content > div > h2 {
   color: white;
   font-size: 1.5rem;
   text-align: center;

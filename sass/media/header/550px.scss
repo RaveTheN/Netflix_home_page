@@ -34,20 +34,20 @@
         & > .overlay-content {
             top: 0;
 
-            & > h1 {
-                width: 90%;
-                font-size: 1.6rem;
-                margin-inline: auto;
-                margin-bottom: 20px;
-            }
-
-            & > h2 {
-                width: 90%;
-                font-size: 1.1rem;
-                margin: 0 auto;
-            }
-
             & > div {
+                & > h1 {
+                    width: 90%;
+                    font-size: 1.6rem;
+                    margin-inline: auto;
+                    margin-bottom: 20px;
+                }
+
+                & > h2 {
+                    width: 90%;
+                    font-size: 1.1rem;
+                    margin: 0 auto;
+                }
+
                 & > p {
                     width: 70%;
                     font-size: 1.1rem;

@@ -20,13 +20,13 @@
   .overlay > .overlay-content, .overlay > img > .overlay-content, .overlay > .opacity > .overlay-content, .overlay > .opacity > .opacity > .overlay-content {
     top: 0;
   }
-  .overlay > .overlay-content > h1 {
+  .overlay > .overlay-content > div > h1 {
     width: 90%;
     font-size: 1.6rem;
     margin-inline: auto;
     margin-bottom: 20px;
   }
-  .overlay > .overlay-content > h2 {
+  .overlay > .overlay-content > div > h2 {
     width: 90%;
     font-size: 1.1rem;
     margin: 0 auto;

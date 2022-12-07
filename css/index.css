@@ -495,7 +495,7 @@ html > body {
     font-weight: 400;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 740px) {
   .card-container {
     padding: 70px 45px;
   }
@@ -503,6 +503,9 @@ html > body {
     margin-top: 1em;
     max-width: 600px;
     width: 100%;
+  }
+  .card-container > .sub-container > .media-container img {
+    margin-bottom: 40px;
   }
   .card-container > .sub-container > .media-container .download-div {
     padding: 0.25em 0.65em;

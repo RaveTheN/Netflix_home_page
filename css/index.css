@@ -6,6 +6,7 @@ html {
   background-color: black;
   font-size: 16px;
 }
+
 html > body {
   width: 100vw;
   background-color: black;
@@ -45,6 +46,7 @@ html > body {
   justify-content: center;
   gap: 22px;
 }
+
 .banner > .news {
   background-color: #e50914;
   color: white;
@@ -53,36 +55,44 @@ html > body {
   font-weight: 800;
   padding: 2px 10px 0 10px;
 }
+
 .banner > .offer {
   color: #333;
   font-size: 1.1rem;
   font-weight: 400;
 }
+
 .banner > .offer > span {
   font-size: 1.3rem;
   font-weight: 800;
 }
+
 .banner > .more > a {
   color: #0071eb;
   text-decoration: none;
   font-weight: 900;
   font-size: 0.9rem;
 }
+
 .banner > .more > img {
   height: 17px;
   position: relative;
   top: 2px;
 }
+
 .banner > .more:hover {
   cursor: pointer;
 }
 
-.overlay, .opacity {
+.overlay,
+.opacity {
   height: calc(100vh - 66px);
   width: 100%;
   overflow: hidden;
 }
-.overlay > img, .opacity > img {
+
+.overlay > img,
+.opacity > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -94,13 +104,16 @@ html > body {
   top: 66px;
   z-index: 0;
 }
+
 .opacity > div {
   height: 50%;
   width: 100%;
 }
+
 .opacity > div:first-child {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
 }
+
 .opacity > div:last-child {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
 }
@@ -113,14 +126,17 @@ html > body {
   top: 66px;
   padding: 44px 56px;
 }
+
 .overlay-header > img {
   width: 150px;
 }
+
 .overlay-header > div > img {
   height: 15px;
   position: relative;
   left: 22px;
 }
+
 .overlay-header > div > select {
   font-size: 0.9rem;
   margin-right: 30px;
@@ -130,9 +146,11 @@ html > body {
   border: 1px solid #aaa;
   border-radius: 2px;
 }
+
 .overlay-header > div > select > option {
   background-color: #aaa;
 }
+
 .overlay-header > div > a {
   text-decoration: none;
   font-weight: 600;
@@ -150,6 +168,7 @@ html > body {
   z-index: 1;
   top: 66px;
 }
+
 .overlay-content > h1 {
   width: 950px;
   font-size: 3.6rem;
@@ -158,21 +177,25 @@ html > body {
   color: white;
   text-align: center;
 }
+
 .overlay-content > h2 {
   color: white;
   font-size: 1.5rem;
   text-align: center;
 }
+
 .overlay-content > div > p {
   color: white;
   text-align: center;
   font-size: 1.1rem;
   padding-top: 20px;
 }
+
 .overlay-content > div > form {
   padding-top: 10px;
   justify-content: center;
 }
+
 .overlay-content > div > form > input {
   width: 450px;
   height: 65px;
@@ -182,6 +205,7 @@ html > body {
   border-radius: 2px 0 0 2px;
   border: 1px solid #8c8c8c;
 }
+
 .overlay-content > div > form > button {
   width: 150px;
   height: 65px;
@@ -193,6 +217,7 @@ html > body {
   color: white;
   font-size: 1.8rem;
 }
+
 .overlay-content > div > form > button > img {
   height: 20px;
   margin-left: 7px;
@@ -203,39 +228,49 @@ html > body {
   color: #fff;
   padding: 50px 5%;
 }
+
 .card-container > .sub-container {
   align-items: center;
   margin: 0 auto;
   max-width: 1100px;
 }
+
 .card-container > .sub-container > .text {
   height: 100%;
   padding: 0 3rem 0 0;
   width: 52%;
   margin: -2% 0;
 }
+
 .card-container > .sub-container > .text > .card-title {
   font-weight: 800;
   font-size: 46px;
 }
+
 .card-container > .sub-container > .text > .card-subtitle {
   font-size: 1.625rem;
   font-weight: 400;
 }
+
 .card-container > .sub-container > .media-container {
   height: 100%;
   width: 48%;
 }
+
 .card-container > .sub-container > .media-container img {
   max-width: 100%;
 }
-.card-container > .sub-container > .media-container img.tv-image, .card-container > .sub-container > .media-container img.device-img {
+
+.card-container > .sub-container > .media-container img.tv-image,
+.card-container > .sub-container > .media-container img.device-img {
   z-index: 2;
 }
+
 .card-container > .sub-container > .media-container .video {
   height: 100%;
   width: 100%;
 }
+
 .card-container > .sub-container > .media-container .tv-card-video {
   height: 100%;
   left: 50%;
@@ -245,6 +280,7 @@ html > body {
   transform: translate(-50%, -50%);
   width: 100%;
 }
+
 .card-container > .sub-container > .media-container .ovunque-card-video {
   height: 100%;
   left: 50%;
@@ -254,6 +290,7 @@ html > body {
   transform: translate(-50%, -50%);
   width: 100%;
 }
+
 .card-container > .sub-container > .media-container .download-div {
   padding: 0.25em 0.65em;
   background: #000;
@@ -268,10 +305,12 @@ html > body {
   width: 60%;
   height: 96px;
 }
+
 .card-container > .sub-container > .media-container .download-div img {
   height: 4.5em;
   max-width: 100%;
 }
+
 .card-container > .sub-container > .media-container .download-div > .download-icon {
   background: url(../../assets/download-icon.gif) 50% no-repeat;
   background-size: 100%;
@@ -280,10 +319,12 @@ html > body {
   outline-offset: -2px;
   width: 3em;
 }
+
 .card-container > .sub-container > .media-container .download-div .text-0 {
   font-size: 1em;
   font-weight: 500;
 }
+
 .card-container > .sub-container > .media-container .download-div .text-1 {
   color: #0071eb;
   font-size: 0.9em;
@@ -293,28 +334,36 @@ html > body {
 .faq-container {
   padding: 70px 45px;
 }
+
 .faq-container > h1 {
+  text-align: center;
   font-size: 3rem;
   font-weight: 600;
   color: white;
 }
+
 .faq-container > div:last-child > p {
   font-size: 20px;
   margin-top: 30px;
   color: white;
+  text-align: center;
 }
+
 .faq-container > div:last-child img {
   height: 20px;
 }
+
 .faq-container > div:last-child > form {
   justify-content: center;
 }
+
 .faq-container > div:last-child > form > input {
   height: 63px;
   width: 450px;
   padding-left: 12px;
   border: 1px solid rgb(165, 165, 165);
 }
+
 .faq-container > div:last-child > form > button {
   height: 63px;
   width: 137px;
@@ -325,59 +374,73 @@ html > body {
   border: 1px solid #e50914;
   background-color: #e50914;
 }
+
 .faq-container > .faq {
   width: 815px;
   margin: 2rem auto;
 }
+
 .faq-container > .faq > div {
   width: 100%;
 }
+
 .faq-container > .faq > div:nth-child(3) a {
   color: inherit;
 }
+
 .faq-container > .faq > .accordion-item {
   background-color: inherit;
   color: white;
   border: 0;
 }
+
 .faq-container > .faq > .accordion-item:last-of-type .accordion-collapse {
   border-radius: 0;
 }
+
 .faq-container > .faq > .accordion-item > h2 {
   height: 74px;
   background-color: #303030;
   margin-block: 10px 1px;
 }
+
 .faq-container > .faq > .accordion-item > h2 > button {
   padding: 20px 30px;
   font-size: 26px;
 }
+
 .faq-container > .faq > .accordion-item > div {
   font-size: 26px;
   background-color: #303030;
 }
+
 .faq-container > .faq > .accordion-item .accordion-button {
   color: white;
   background-color: #303030;
 }
+
 .faq-container > .faq > .accordion-item .accordion-button:not(.collapsed) {
   background-color: #303030;
   color: white;
   box-shadow: none;
   border: 0;
 }
+
 .faq-container > .faq > .accordion-item .accordion-button:not(.collapsed)::after {
   background-image: url(../../assets/plus.png);
   transform: rotate(45deg);
   transition: transform 0s;
 }
+
 .faq-container > .faq > .accordion-item .accordion-button:focus {
   box-shadow: none;
   border: 0;
 }
+
 .faq-container > .faq > .accordion-item .accordion-button::after {
   background-image: url(../../assets/plus.png);
 }
+
 .faq-container > .faq > .accordion-item .accordion-body {
   padding: 20px 30px;
 }
@@ -387,36 +450,44 @@ html > body {
   bottom: 242px;
   color: #737373;
 }
+
 .footer > .footer-content {
   width: 60%;
   margin: 4rem auto;
   align-items: flex-start;
 }
+
 .footer > .footer-content a {
   text-decoration: none;
   color: inherit;
 }
+
 .footer > .footer-content a:hover {
   text-decoration: underline;
 }
+
 .footer > .footer-content > .domande {
   padding-bottom: 40px;
 }
+
 .footer > .footer-content > .info {
   font-size: 12px;
   display: grid;
   gap: 15px 40px;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .footer > .footer-content > .selector {
   margin: 30px 0 0 -20px;
 }
+
 .footer > .footer-content > .selector > .select-icon {
   width: 17px;
   height: 17px;
   position: relative;
   left: 30px;
 }
+
 .footer > .footer-content > .selector > select {
   background-color: inherit;
   border: 1px solid #303030;
@@ -425,27 +496,106 @@ html > body {
   padding: 12px 6px 12px 35px;
   font-size: 16px;
 }
+
 .footer > .footer-content > .selector > select > option {
   background-color: black;
 }
+
 .footer > .footer-content > .footer-country {
   font-size: 13px;
   margin-top: 24px;
+}
+
+@media (min-width: 741px) {
+  .card-container {
+    padding: 70px 45px;
+  }
+
+  .card-container > .sub-container {
+    flex-direction: column;
+  }
+
+  .card-container > .sub-container > .media-container {
+    margin-top: 1em;
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .card-container > .sub-container > .text {
+    width: 100%;
+    height: 100%;
+    margin: -2% 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .card-container > .sub-container > .text > .card-title {
+    font-weight: 500;
+    font-size: 1.625rem;
+  }
+
+  .card-container > .sub-container > .text > .card-subtitle {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+
+  .card-container > .sub-container .download-div {
+    padding: 0.25em 0.65em;
+    background: #000;
+    border: 2px solid hsla(0deg, 0%, 100%, 0.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: 0.25em 0.65em;
+    transform: translateX(-50%);
+    width: 60%;
+  }
+
+  .card-container > .sub-container .download-div > .download-icon {
+    background: url(../../assets/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+  }
+
+  .card-container > .sub-container .download-div img {
+    height: 3em;
+    max-width: 100%;
+  }
+
+  .card-container > .sub-container .download-div .text-0 {
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+
+  .card-container > .sub-container .download-div .text-1 {
+    color: #0071eb;
+    font-size: 0.75em;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 550px) {
   .card-container {
     padding: 70px 45px;
   }
+
   .card-container > .sub-container {
     flex-flow: column;
     flex-direction: column;
   }
+
   .card-container > .sub-container > .media-container {
     margin-top: 1em;
     max-width: 600px;
     width: 100%;
   }
+
   .card-container > .sub-container > .media-container .download-div {
     padding: 0.25em 0.65em;
     background: #000;
@@ -461,6 +611,7 @@ html > body {
     width: 60%;
     height: 68px;
   }
+
   .card-container > .sub-container > .media-container .download-div > .download-icon {
     background: url(../../assets/download-icon.gif) 50% no-repeat;
     background-size: 100%;
@@ -469,19 +620,23 @@ html > body {
     outline-offset: -2px;
     width: 3em;
   }
+
   .card-container > .sub-container > .media-container .download-div img {
     height: 3em;
     max-width: 100%;
   }
+
   .card-container > .sub-container > .media-container .download-div .text-0 {
     font-size: 0.9em;
     font-weight: 500;
   }
+
   .card-container > .sub-container > .media-container .download-div .text-1 {
     color: #0071eb;
     font-size: 0.75em;
     font-weight: 400;
   }
+
   .card-container > .sub-container > .text {
     width: 100%;
     height: 100%;
@@ -489,249 +644,159 @@ html > body {
     padding: 0;
     text-align: center;
   }
+
   .card-container > .sub-container > .text > .card-title {
     font-weight: 500;
     font-size: 1.625rem;
   }
+
   .card-container > .sub-container > .text > .card-subtitle {
     font-size: 1.125rem;
     font-weight: 400;
   }
 }
-@media (min-width: 741px) {
-  .card-container {
-    padding: 70px 45px;
-  }
-  .card-container > .sub-container {
-    flex-direction: column;
-  }
-  .card-container > .sub-container > .media-container {
-    margin-top: 1em;
-    max-width: 600px;
+
+@media (max-width: 950px) {
+  .faq-container > .faq {
     width: 100%;
+    align-items: center;
   }
-  .card-container > .sub-container > .text {
-    width: 100%;
+
+  .faq-container > .faq > .accordion-item {
+    width: 85%;
+  }
+
+  .faq-container > .faq > .accordion-item > .accordion-header {
+    height: 60px;
+  }
+
+  .faq-container > .faq > .accordion-item > .accordion-header > .accordion-button {
     height: 100%;
-    margin: -2% 0;
-    padding: 0;
-    text-align: center;
+    font-size: 1.3rem;
   }
-  .card-container > .sub-container > .text > .card-title {
-    font-weight: 500;
-    font-size: 1.625rem;
+
+  .faq-container > .faq > .accordion-item .accordion-body {
+    font-size: 1.3rem;
   }
-  .card-container > .sub-container > .text > .card-subtitle {
-    font-size: 1.125rem;
-    font-weight: 400;
-  }
-  .card-container > .sub-container .download-div {
-    padding: 0.25em 0.65em;
-    background: #000;
-    border: 2px solid hsla(0deg, 0%, 100%, 0.25);
-    border-radius: 0.75em;
-    bottom: 8%;
-    box-shadow: 0 0 2em 0 #000;
-    left: 50%;
-    margin: 0 auto;
-    min-width: 15em;
-    padding: 0.25em 0.65em;
-    transform: translateX(-50%);
+
+  .faq-container > div:last-child > p {
     width: 60%;
   }
-  .card-container > .sub-container .download-div > .download-icon {
-    background: url(../../assets/download-icon.gif) 50% no-repeat;
-    background-size: 100%;
-    height: 3em;
-    outline: 2px solid #000;
-    outline-offset: -2px;
-    width: 3em;
+
+  .faq-container > div:last-child > form {
+    flex-direction: column;
+    gap: 15px;
   }
-  .card-container > .sub-container .download-div img {
-    height: 3em;
-    max-width: 100%;
+
+  .faq-container > div:last-child > form > button {
+    height: 40px;
+    width: 85px;
+    font-size: 1rem;
+    gap: 5px;
+    border-radius: 4px;
   }
-  .card-container > .sub-container .download-div .text-0 {
-    font-size: 0.9em;
-    font-weight: 500;
-  }
-  .card-container > .sub-container .download-div .text-1 {
-    color: #0071eb;
-    font-size: 0.75em;
-    font-weight: 400;
+
+  .faq-container > div:last-child > form > button > img {
+    height: 12px;
   }
 }
-@media (max-width: 550px) {
-  .faq-container {
-    padding: 50px 0;
+
+@media (max-width: 950px) {
+  .faq-container > .faq {
+    width: 100%;
+    align-items: center;
   }
+
+  .faq-container > .faq > .accordion-item {
+    width: 85%;
+  }
+
+  .faq-container > .faq > .accordion-item > .accordion-header {
+    height: 60px;
+  }
+
+  .faq-container > .faq > .accordion-item > .accordion-header > .accordion-button {
+    height: 100%;
+    font-size: 1.3rem;
+  }
+
+  .faq-container > .faq > .accordion-item .accordion-body {
+    font-size: 1.3rem;
+  }
+
+  .faq-container > div:last-child > p {
+    width: 60%;
+  }
+
+  .faq-container > div:last-child > form {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .faq-container > div:last-child > form > button {
+    height: 40px;
+    width: 85px;
+    font-size: 1rem;
+    gap: 5px;
+    border-radius: 4px;
+  }
+
+  .faq-container > div:last-child > form > button > img {
+    height: 12px;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .overlay,
+  .overlay > .opacity {
+    height: 770px;
+  }
+
   .faq-container > h1 {
     font-size: 1.625rem;
     margin-bottom: 0.5rem;
     padding-left: 5%;
     padding-right: 5%;
   }
+
   .faq-container .faq {
     width: 100%;
     margin: 0;
   }
+
   .faq-container .faq .accordion-item .accordion-header {
     height: 68px;
   }
+
   .faq-container .faq .accordion-item .accordion-header .accordion-button {
     font-size: 1.125rem;
     height: 80%;
     padding: 0.8em 0.8em 0em 1.2em;
   }
+
   .faq-container > div:last-child > p {
     width: 90%;
     font-size: 18px;
     margin: auto;
     line-height: 1;
   }
-  .faq-container > div:last-child > form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 5%;
-    gap: 22px;
+
+  .overlay > .overlay-content > div > form > input {
+    height: 60px;
   }
-  .faq-container > div:last-child > form > input {
-    height: 48px;
-    padding: 10px 10px 0;
-    width: 100%;
-  }
+
   .faq-container > div:last-child > form > button {
     height: 100%;
     width: 80px;
     font-size: 18px;
   }
+
   .faq-container > div:last-child > form > button > img {
     height: 14px;
     bottom: 6px;
   }
-}
-@media (max-width: 550px) {
-  .footer .footer-content {
-    margin: 0;
-    padding: 50px 19.5px 0px;
-  }
-  .footer .footer-content .info {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 550px) {
-  .overlay, .overlay > .opacity {
-    height: 650px;
-  }
-  .overlay > .overlay-header, .overlay > .opacity > .overlay-header {
-    padding: 28px 5% 0px;
-  }
-  .overlay > .overlay-header img {
-    width: 20%;
-  }
-  .overlay > .overlay-header > div > img {
-    height: 15px;
-  }
-  .overlay > .overlay-header > div > select {
-    font-size: 0.875rem;
-    padding: 3px 0px 0px 20px;
-  }
-  .overlay > .overlay-content, .overlay > .opacity > .overlay-content {
-    top: 0;
-    align-content: space-between;
-  }
-  .overlay > .overlay-content > div {
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  .overlay > .overlay-content > div > h1 {
-    margin: 0 auto;
-    width: 90%;
-    font-size: 1.75rem;
-    margin-right: auto;
-    color: #fff;
-    text-align: center;
-  }
-  .overlay > .overlay-content > div > h2 {
-    width: 90%;
-    font-size: 18px;
-    margin: 1rem auto;
-    color: #fff;
-    text-align: center;
-  }
-  .overlay > .overlay-content > div > p {
-    width: 90%;
-    font-size: 18px;
-    margin: auto;
-    line-height: 1;
-  }
-  .overlay > .overlay-content > div > form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 5%;
-    gap: 22px;
-  }
-  .overlay > .overlay-content > div > form > input {
-    height: 48px;
-    padding: 10px 10px 0;
-    width: 100%;
-  }
-  .overlay > .overlay-content > div > form > button {
-    height: 100%;
-    width: 80px;
-    font-size: 18px;
-  }
-  .overlay > .overlay-content > div > form > button > img {
-    height: 14px;
-    bottom: 6px;
-  }
-}
-@media (min-width: 551px) {
-  .overlay, .overlay > .opacity {
-    height: 720px;
-  }
-  .overlay > .overlay-content, .overlay > .opacity > .overlay-content {
-    top: 0;
-  }
-  .overlay > .overlay-content > div > p {
-    font-size: 1.1rem;
-  }
-}
-@media (min-width: 951px) {
-  .overlay, .overlay > .opacity {
-    height: 770px;
-  }
-  .overlay > .overlay-header > img {
-    height: 1.5rem;
-    width: auto;
-  }
-  .overlay > .overlay-content > div > form {
-    display: flex;
-    flex-direction: column;
-  }
-  .overlay > .overlay-content > div > form > input {
-    height: 60px;
-  }
-  .overlay > .overlay-content > div > form > button {
-    height: 40px;
-    width: 80px;
-    font-size: 18px;
-    margin-top: 15px;
-  }
-  .overlay > .overlay-content > div > form > button > img {
-    height: 14px;
-    bottom: 6px;
-  }
-  .overlay > .overlay-content > div > h1 {
-    width: 70%;
-    font-size: 3rem;
-    margin: auto;
-  }
-  .overlay > .overlay-content > div > h2 {
-    margin: auto;
-  }
+
   .overlay > .overlay-content > div > p {
     font-size: 23px;
     width: 500px;
@@ -739,77 +804,221 @@ html > body {
     line-height: 1;
   }
 }
+
 @media (max-width: 550px) {
-  .banner {
-    padding: 0 1rem;
-    gap: 12px;
+  .footer .footer-content {
+    margin: 0;
+    padding: 50px 19.5px 0px;
   }
-  .banner > .news {
-    font-size: 0.6rem;
-  }
-  .banner > .offer {
-    font-size: 14px;
-  }
-  .banner > .offer span {
-    font-size: 15px;
-    font-weight: 800;
-  }
-  .banner > .more {
-    font-size: 0.1rem;
-    margin: 0 0.5em;
-  }
-  .banner > .more img {
-    width: 12px;
-    height: 12px;
-  }
-}
-@media (max-width: 740px) {
-  .banner {
-    padding: 0 1rem;
-    gap: 12px;
-  }
-  .banner > .news {
-    font-size: 0.6rem;
-  }
-  .banner > .offer {
-    font-size: 14px;
-  }
-  .banner > .offer span {
-    font-size: 15px;
-    font-weight: 800;
-  }
-  .banner > .more {
-    font-size: 0.1rem;
-    margin: 0 0.5em;
-  }
-  .banner > .more img {
-    width: 12px;
-    height: 12px;
-  }
-}
-@media (max-width: 950px) {
-  .banner {
-    padding: 0 1rem;
-    gap: 12px;
-  }
-  .banner > .news {
-    font-size: 0.6rem;
-  }
-  .banner > .offer {
-    font-size: 14px;
-  }
-  .banner > .offer span {
-    font-size: 15px;
-    font-weight: 800;
-  }
-  .banner > .more {
-    font-size: 0.1rem;
-    margin: 0 0.5em;
-  }
-  .banner > .more img {
-    width: 12px;
-    height: 12px;
+
+  .footer .footer-content .info {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/*# sourceMappingURL=index.css.map */
+@media (min-width: 951px) {
+
+  .overlay,
+  .overlay > .opacity {
+    height: 770px;
+
+    @media (max-width: 550px) {
+
+      .overlay,
+      .overlay > .opacity,
+      .overlay > img > .opacity,
+      .overlay > .opacity > img,
+      .overlay > .opacity > .opacity,
+      .overlay > img,
+      .overlay > .opacity > img > img,
+      .overlay > .opacity > .opacity > img {
+        height: 550px;
+      }
+
+      .overlay > .overlay-header,
+      .overlay > img > .overlay-header,
+      .overlay > .opacity > .overlay-header,
+      .overlay > .opacity > .opacity > .overlay-header {
+        padding: 40px 20px;
+      }
+
+      .overlay > .overlay-header > div > img {
+        height: 13px;
+      }
+
+      .overlay > .overlay-header > div > select {
+        margin-right: 10px;
+        padding: 0 0 0 20px;
+        font-size: 0.8rem;
+      }
+
+      .overlay > .overlay-header > div > a {
+        font-size: 0.9rem;
+        padding: 2px 7px;
+      }
+
+      .overlay > .overlay-content,
+      .overlay > img > .overlay-content,
+      .overlay > .opacity > .overlay-content,
+      .overlay > .opacity > .opacity > .overlay-content {
+        top: 0;
+      }
+
+      .overlay > .overlay-content > h1 {
+        width: 90%;
+        font-size: 1.6rem;
+        margin-inline: auto;
+        margin-bottom: 20px;
+      }
+
+      .overlay > .overlay-content > h2 {
+        width: 90%;
+        font-size: 1.1rem;
+        margin: 0 auto;
+      }
+
+      .overlay > .overlay-content > h1 {
+        width: 70%;
+        font-size: 3rem;
+        margin: 0 auto;
+      }
+
+      .overlay > .overlay-content > h2 {
+        margin: 0 auto;
+      }
+
+      .overlay > .overlay-content > div > form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .overlay > .overlay-content > div > form > input {
+        height: 45px;
+        width: 90%;
+      }
+
+      .overlay > .overlay-content > div > form > button {
+        height: 40px;
+        width: 80px;
+        font-size: 18px;
+        margin-top: 15px;
+      }
+
+      .overlay > .overlay-content > div > form > button > img {
+        height: 14px;
+        bottom: 6px;
+      }
+
+      .overlay > .overlay-content > div > p {
+        font-size: 23px;
+        width: 500px;
+        margin: auto;
+        line-height: 1;
+      }
+    }
+
+    @media (min-width: 551px) {
+
+      .overlay,
+      .overlay > .opacity {
+        height: 720px;
+      }
+
+      .overlay > .overlay-content,
+      .overlay > .opacity > .overlay-content {
+        top: 0;
+      }
+
+      .overlay > .overlay-content > div > p {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media (max-width: 550px) {
+
+      .overlay,
+      .overlay > .opacity,
+      .overlay > img > .opacity,
+      .overlay > .opacity > img,
+      .overlay > .opacity > .opacity,
+      .overlay > img,
+      .overlay > .opacity > img > img,
+      .overlay > .opacity > .opacity > img {
+        height: 550px;
+      }
+
+      .overlay > .overlay-header,
+      .overlay > img > .overlay-header,
+      .overlay > .opacity > .overlay-header,
+      .overlay > .opacity > .opacity > .overlay-header {
+        padding: 40px 20px;
+      }
+
+      .overlay > .overlay-header > div > img {
+        height: 13px;
+      }
+
+      .overlay > .overlay-header > div > select {
+        margin-right: 10px;
+        padding: 0 0 0 20px;
+        font-size: 0.8rem;
+      }
+
+      .overlay > .overlay-header > div > a {
+        font-size: 0.9rem;
+        padding: 2px 7px;
+      }
+
+      .overlay > .overlay-content,
+      .overlay > img > .overlay-content,
+      .overlay > .opacity > .overlay-content,
+      .overlay > .opacity > .opacity > .overlay-content {
+        top: 0;
+      }
+
+      .overlay > .overlay-content > h1 {
+        width: 90%;
+        font-size: 1.6rem;
+        margin-inline: auto;
+        margin-bottom: 20px;
+      }
+
+      .overlay > .overlay-content > h2 {
+        width: 90%;
+        font-size: 1.1rem;
+        margin: 0 auto;
+      }
+
+      .overlay > .overlay-content > div > p {
+        width: 70%;
+        font-size: 1.1rem;
+        margin: 0 auto;
+        line-height: 1;
+      }
+
+      .overlay > .overlay-content > div > form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 5%;
+        gap: 22px;
+      }
+
+      .overlay > .overlay-content > div > form > input {
+        height: 45px;
+        width: 90%;
+      }
+
+      .overlay > .overlay-content > div > form > button {
+        height: 100%;
+        width: 80px;
+        font-size: 18px;
+      }
+
+      .overlay > .overlay-content > div > form > button > img {
+        height: 14px;
+        bottom: 6px;
+      }
+    }
+
+    /*# sourceMappingURL=index.css.map */

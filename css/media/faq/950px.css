@@ -1,3 +1,38 @@
-
+@media (max-width: 950px) {
+  .faq-container > .faq {
+    width: 100%;
+    align-items: center;
+  }
+  .faq-container > .faq > .accordion-item {
+    width: 85%;
+  }
+  .faq-container > .faq > .accordion-item > .accordion-header {
+    height: 60px;
+  }
+  .faq-container > .faq > .accordion-item > .accordion-header > .accordion-button {
+    height: 100%;
+    font-size: 1.3rem;
+  }
+  .faq-container > .faq > .accordion-item .accordion-body {
+    font-size: 1.3rem;
+  }
+  .faq-container > div:last-child > p {
+    width: 60%;
+  }
+  .faq-container > div:last-child > form {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .faq-container > div:last-child > form > button {
+    height: 40px;
+    width: 85px;
+    font-size: 1rem;
+    gap: 5px;
+    border-radius: 4px;
+  }
+  .faq-container > div:last-child > form > button > img {
+    height: 12px;
+  }
+}
 
 /*# sourceMappingURL=950px.css.map */

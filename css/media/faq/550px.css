@@ -2,30 +2,36 @@
   .faq-container {
     padding: 50px 0;
   }
+
   .faq-container > h1 {
     font-size: 1.625rem;
     margin-bottom: 0.5rem;
     padding-left: 5%;
     padding-right: 5%;
   }
+
   .faq-container .faq {
     width: 100%;
     margin: 0;
   }
+
   .faq-container .faq .accordion-item .accordion-header {
     height: 68px;
   }
+
   .faq-container .faq .accordion-item .accordion-header .accordion-button {
     font-size: 1.125rem;
     height: 80%;
     padding: 0.8em 0.8em 0em 1.2em;
   }
+
   .faq-container > div:last-child > p {
     width: 90%;
     font-size: 18px;
     margin: auto;
     line-height: 1;
   }
+
   .faq-container > div:last-child > form {
     display: flex;
     flex-direction: column;
@@ -33,19 +39,42 @@
     padding: 0 5%;
     gap: 22px;
   }
+
   .faq-container > div:last-child > form > input {
     height: 48px;
     padding: 10px 10px 0;
     width: 100%;
   }
+
   .faq-container > div:last-child > form > button {
     height: 100%;
     width: 80px;
     font-size: 18px;
   }
+
   .faq-container > div:last-child > form > button > img {
     height: 14px;
     bottom: 6px;
+  }
+}
+
+@media (max-width: 550px) {
+  .faq-container {
+    width: 100vw;
+    padding-inline: 0;
+  }
+
+  .faq-container > h1 {
+    font-size: 1.5rem;
+  }
+
+  .faq-container > .faq {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .faq-container > .faq > .accordion-item {
+    width: 100%;
   }
 }
 

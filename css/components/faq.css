@@ -6,6 +6,7 @@
   padding: 70px 45px;
 }
 .faq-container > h1 {
+  text-align: center;
   font-size: 3rem;
   font-weight: 600;
   color: white;
@@ -14,6 +15,7 @@
   font-size: 20px;
   margin-top: 30px;
   color: white;
+  text-align: center;
 }
 .faq-container > div:last-child img {
   height: 20px;

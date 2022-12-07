@@ -12,6 +12,16 @@
         }
 
         & > .overlay-content {
+            & > h1 {
+                width: 70%;
+                font-size: 3rem;
+                margin: 0 auto;
+            }
+
+            & > h2 {
+                margin: 0 auto;
+            }
+
             & > div {
                 & > form {
                     display: flex;
@@ -32,16 +42,6 @@
                             bottom: 6px;
                         }
                     }
-                }
-
-                & > h1 {
-                    width: 70%;
-                    font-size: 3rem;
-                    margin: auto;
-                }
-
-                & > h2 {
-                    margin: auto;
                 }
 
                 & > p {

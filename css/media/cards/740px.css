@@ -7,8 +7,8 @@
     max-width: 600px;
     width: 100%;
   }
-  .card-container > .sub-container > .media-container img {
-    margin-bottom: 40px;
+  .card-container > .sub-container > .media-container .eleven-img {
+    margin-bottom: 20px;
   }
   .card-container > .sub-container > .media-container .download-div {
     padding: 0.25em 0.65em;

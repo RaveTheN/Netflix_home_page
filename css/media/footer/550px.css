@@ -1,6 +1,6 @@
 @media (max-width: 550px) {
   .footer .footer-content {
-    margin: 0;
+    margin: 0 auto;
     padding: 50px 19.5px 0px;
   }
   .footer .footer-content .info {

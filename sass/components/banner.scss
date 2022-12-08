@@ -1,7 +1,6 @@
 @use "../main/root.scss" as var;
 
 .banner {
-    width: 100vw;
     height: var.$banner-height;
     background-color: var.$bg-contrast;
     justify-content: center;

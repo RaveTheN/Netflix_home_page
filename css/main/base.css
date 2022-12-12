@@ -7,12 +7,12 @@ html {
   font-size: 16px;
 }
 html > body {
-  width: 100vw;
+  width: 100%;
   background-color: black;
 }
 
 * {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: "Martel sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -26,6 +26,10 @@ html > body {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.flipped {
+  flex-direction: row-reverse;
 }
 
 ._flex-column {

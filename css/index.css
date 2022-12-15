@@ -441,6 +441,10 @@ html > body {
   .card-container {
     padding: 70px 45px;
   }
+  .card-container > .sub-container {
+    flex-flow: column;
+    flex-direction: column;
+  }
   .card-container > .sub-container > .media-container {
     margin-top: 1em;
     max-width: 600px;
@@ -493,11 +497,11 @@ html > body {
     text-align: center;
   }
   .card-container > .sub-container > .text > .card-title {
-    font-weight: 500;
-    font-size: 1.625rem;
+    font-weight: bold;
+    font-size: 2.5rem;
   }
   .card-container > .sub-container > .text > .card-subtitle {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 400;
   }
 }
@@ -505,6 +509,10 @@ html > body {
   .card-container {
     padding: 70px 45px;
   }
+  .card-container > .sub-container {
+    flex-flow: column;
+    flex-direction: column;
+  }
   .card-container > .sub-container > .media-container {
     margin-top: 1em;
     max-width: 600px;
@@ -557,11 +565,11 @@ html > body {
     text-align: center;
   }
   .card-container > .sub-container > .text > .card-title {
-    font-weight: 500;
-    font-size: 1.625rem;
+    font-weight: bold;
+    font-size: 2.5rem;
   }
   .card-container > .sub-container > .text > .card-subtitle {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 400;
   }
 }

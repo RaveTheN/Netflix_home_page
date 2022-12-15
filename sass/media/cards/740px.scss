@@ -3,6 +3,9 @@
         padding: 70px 45px;
 
         & > .sub-container {
+            flex-flow: column;
+            flex-direction: column;
+
             & > .media-container {
                 margin-top: 1em;
                 max-width: 600px;
@@ -61,12 +64,12 @@
                 text-align: center;
 
                 & > .card-title {
-                    font-weight: 500;
-                    font-size: 1.625rem;
+                    font-weight: bold;
+                    font-size: 2.5rem;
                 }
 
                 & > .card-subtitle {
-                    font-size: 1.125rem;
+                    font-size: 1.25rem;
                     font-weight: 400;
                 }
             }

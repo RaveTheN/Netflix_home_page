@@ -630,12 +630,12 @@ html > body {
     text-align: center;
   }
   .card-container > .sub-container > .text > .card-title {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.625rem;
   }
   .card-container > .sub-container > .text > .card-subtitle {
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 @media (max-width: 950px) {

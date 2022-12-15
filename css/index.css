@@ -270,6 +270,7 @@ html > body {
   transform: translateX(-50%);
   width: 60%;
   height: 96px;
+  gap: 2%;
 }
 .card-container > .sub-container > .media-container .download-div img {
   height: 4.5em;

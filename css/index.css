@@ -815,7 +815,7 @@ html > body {
     margin: 0 auto;
   }
   .overlay > .overlay-content > div > p {
-    width: 70%;
+    width: 90%;
     font-size: 1.1rem;
     margin: 0 auto;
     line-height: 1;
@@ -830,11 +830,15 @@ html > body {
   .overlay > .overlay-content > div > form > input {
     height: 45px;
     width: 90%;
+    padding-block: 10px;
+    margin-top: 10px;
   }
   .overlay > .overlay-content > div > form > button {
     height: 100%;
     width: 80px;
     font-size: 18px;
+    padding-block: 5px;
+    margin-top: 0;
   }
   .overlay > .overlay-content > div > form > button > img {
     height: 14px;
